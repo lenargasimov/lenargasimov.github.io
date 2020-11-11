@@ -41,7 +41,13 @@
 </div>
 </div>
 <div class="footer">
-    Copyright 2020 &copy; Lenar Gasimov
+    <div id="footer"></div>
+<script>
+    var today = new Date();
+    var year = today.getFullYear();
+    var el = document.getElementById('footer');
+    el.innerHTML = '<p>Copyright &copy;' + year + ' Lenar Gasimov</p>';
+</script>
 </div>
 
 </body>
