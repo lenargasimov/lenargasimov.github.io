@@ -3,33 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Загадки</title>
-	<link rel="stylesheet" href="css/style.css"> 
-	<script type="text/javascript">
-
-		var score = 0;
-
-		function checkAnswer(inputId, answers){
-			var userAnswer = document.getElementById(inputId).value;
-			userAnswer = userAnswer.toLowerCase();
-			for(var i = 0; i < answers.length; i++){
-				if(userAnswer == answers[i]){
-					score++;
-					break;
-				}
-			}
-		}
-		
-		function checkAnswers() {
-
-			checkAnswer("userAnswer1", ["сон", "сноведение"]);
-			checkAnswer("userAnswer2", ["морской", "укус акулы"]);
-			checkAnswer("userAnswer3", ["шахматный", "троянский"]);
-
-			alert("Вы отгадали " + score + " загадок");
-
-		}
-
-	</script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/puzzle.js"></script>
 </head>
 <body>
 
@@ -66,7 +41,6 @@
         </div>
     </div>
 </div>
-
 	
 
 </div>
