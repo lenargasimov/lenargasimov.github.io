@@ -12,7 +12,7 @@ function checkAnswer(inputId, answers){
 }
 
 function checkAnswers() {
-
+/* TODO: hide answer */
     checkAnswer("userAnswer1", ["сон", "сноведение"]);
     checkAnswer("userAnswer2", ["морской", "укус акулы"]);
     checkAnswer("userAnswer3", ["шахматный", "троянский"]);
