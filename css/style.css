@@ -181,3 +181,25 @@ body {
     margin-left: 30px;
     
 }
+
+/* links.html */
+.img_link {
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    background-color: lightgrey;
+  }
+  
+.links h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+.links p {
+    font-size: 24px;
+    text-align: center;
+}
+
