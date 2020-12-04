@@ -1,5 +1,12 @@
 # lenargasimov.github.io
-[![GitHub issues](https://img.shields.io/github/issues/lenargasimov/lenargasimov.github.io)](https://github.com/lenargasimov/lenargasimov.github.io/issues)
+[![GitHub issues](https://img.shields.io/github/issues/lenargasimov/lenargasimov.github.io?style=social)](https://img.shields.io/github/issues/lenargasimov/lenargasimov.github.io?style=social)
 
-[![Guthub forks](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io)](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io)
+[![Github forks](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io?style=social)](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io?style=social)
+
+[![Github stars](https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io?style=social)](https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io?style=social)
+
+[![Github stars](https://img.shields.io/github/license/lenargasimov/lenargasimov.github.io?style=social)](https://img.shields.io/github/license/lenargasimov/lenargasimov.github.io?style=social)
+
+[![Github stars](https://img.shields.io/twitter/url?style=social)](https://img.shields.io/twitter/url?style=social)
+
 
