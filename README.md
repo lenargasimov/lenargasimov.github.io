@@ -7,6 +7,6 @@
 
 [![Github stars](https://img.shields.io/github/license/lenargasimov/lenargasimov.github.io?style=social)](https://img.shields.io/github/license/lenargasimov/lenargasimov.github.io?style=social)
 
-[![Github stars](https://img.shields.io/twitter/url?style=social)](https://img.shields.io/twitter/url?style=social)
+<img src="https://img.shields.io/twitter/url?style=social">
 
 
