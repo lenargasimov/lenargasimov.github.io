@@ -12,6 +12,6 @@
 
 <img src="https://img.shields.io/github/license/lenargasimov/lenargasimov.github.io?style=social">
 
-<img src="https://img.shields.io/twitter/djelectrostatic?style=social">
+<img src="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Ftwitter.com%2Fdjelectrostatic">
 
 </p>
