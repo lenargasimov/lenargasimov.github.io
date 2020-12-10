@@ -10,7 +10,7 @@ body {
 
 .header {
     position: fixed;
-    min-width: 1300px;
+    max-width: 100%;
     border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
     margin: 0 auto;
