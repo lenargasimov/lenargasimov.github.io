@@ -78,7 +78,7 @@ body {
 .content img {
     margin-left: 17px;
     width: 389px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .content .box_text {
