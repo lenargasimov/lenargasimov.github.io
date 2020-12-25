@@ -77,12 +77,12 @@ body {
 
 .content img {
     margin-left: 17px;
-    width: 389px;
+    width: 300px;
     border-radius: 100%;
 }
 
 .content .box_text {
-    width: 671px;
+    width: 800px;
     background-color: #ffffff;
     float: right;
     padding: 49px 48px 51px 76px;
