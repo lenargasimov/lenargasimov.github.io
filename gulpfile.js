@@ -6,14 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
-const ghPages = require('gh-pages');
-const path = require('path');
 
-function deploy(cb) {
-    ghPages.publish(path.join(process.cwd(), './build'), cb);
-  }
-  exports.deploy = deploy;
-  
 gulp.task('server', function() {
 
     browserSync({
@@ -76,4 +69,3 @@ gulp.task('images', function () {
 });
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images'));
-
