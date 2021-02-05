@@ -4,13 +4,13 @@
         margin-top: 60px;
         padding: 0 10px;
         display: grid;
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
-        grid-auto-rows: minmax(270px, auto);
+        grid-template: repeat(2, minmax(90px, auto)) / repeat(4, 90px);
+        grid-auto-rows: minmax(90px, auto);
         gap: 13px;
     }
     &__item {
         border: 1px solid black;
-        padding: 30px 30px 25px 30px;
+        padding: 80px 80px 80px 100px;
         &-img {
             display: flex;
             align-items: center;
