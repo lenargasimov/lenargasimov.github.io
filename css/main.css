@@ -11,6 +11,10 @@ html[data-theme='dark'] {
   --bg-color: #202020;
 }
 
+.nav > li > a {
+  padding: 30px;
+} 
+
 body {
   background-color: var(--bg-color);
 }
@@ -47,28 +51,6 @@ section {
 .cv {
   max-width: 1100px;
   margin: 0 auto;
-}
-
-.experience {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 2em;
-}
-
-.experience__date {
-  min-width: 185px;
-  margin-bottom: 1em;
-}
-
-.experience__name {
-  font-weight: bold;
-}
-
-@media (max-width: 575px) {
-  .experience {
-    display: block;
-  }
 }
 
 .theme-switch-wrapper {
