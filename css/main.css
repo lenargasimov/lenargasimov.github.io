@@ -53,10 +53,22 @@ section {
   margin: 0 auto;
 }
 
+.langage {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+
+.langage2 {
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
 .theme-switch-wrapper {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 60px;
+  top: 25px;
 }
 
 .theme-switch-wrapper {
