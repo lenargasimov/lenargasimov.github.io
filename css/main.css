@@ -12,8 +12,19 @@ html[data-theme='dark'] {
 }
 
 .nav > li > a {
+  color: var(--secondary-color);
   padding: 30px;
 } 
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+.logo {
+  position: absolute;
+  left: 150px;
+  top: 30px;
+}
 
 body {
   background-color: var(--bg-color);
@@ -55,20 +66,21 @@ section {
 
 .langage {
   position: absolute;
-  left: 30px;
+  right: 330px;
   top: 0;
 }
 
 .langage2 {
   position: absolute;
-  left: 100px;
+  right: 270px;
   top: 0;
 }
 
+
 .theme-switch-wrapper {
   position: absolute;
-  right: 60px;
-  top: 25px;
+  right: -120px;
+  top: -60px;
 }
 
 .theme-switch-wrapper {
