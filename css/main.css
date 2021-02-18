@@ -1,12 +1,12 @@
 html {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, system-ui, sans-serif;
   --primary-color: #2f80ed;
   --secondary-color: #333333;
   --bg-color: #ffffff;
 }
 
 html[data-theme='dark'] {
-  --primary-color: #2f80ed;
+  --primary-color: #66D9EF;
   --secondary-color: #ffffff;
   --bg-color: #202020;
 }
@@ -14,7 +14,7 @@ html[data-theme='dark'] {
 .nav > li > a {
   color: var(--secondary-color);
   padding: 30px;
-}
+} 
 
 .logo {
   position: absolute;
