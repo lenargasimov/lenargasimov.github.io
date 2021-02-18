@@ -1,7 +1,7 @@
 # Lenar Gasimov
 
 <p align="center">
-  <img width="360" src="profile.jpg" alt="profile" />
+  <img width="360" src="img/profile.jpg" alt="profile" />
 </p>
 
 I'm Lenar. I'm junior python developer 👨‍💻. Interested in web frameworks and everything related to Python. <br>

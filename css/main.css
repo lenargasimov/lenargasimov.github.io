@@ -14,10 +14,6 @@ html[data-theme='dark'] {
 .nav > li > a {
   color: var(--secondary-color);
   padding: 30px;
-} 
-
-.nav-link {
-  color: var(--secondary-color);
 }
 
 .logo {
