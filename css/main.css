@@ -1,5 +1,5 @@
 html {
-  font-family: Roboto, system-ui, sans-serif;
+  font-family: Roboto, sans-serif;
   --primary-color: #2f80ed;
   --secondary-color: #333333;
   --bg-color: #ffffff;
@@ -147,6 +147,28 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media (max-width: 1024px) {
+  .col-3 {
+    display: none;
+  }
+  .theme-switch-wrapper {
+    display: block;
+  }
+  .nav-item {
+    display: none;
+  }
+  .langage {
+    display: none;
+  }
+  .langage2 {
+    display: none;
+  }
+  .logo {
+    display: none;
+  } 
+}
+
 
 html.transition,
 html.transition * {
