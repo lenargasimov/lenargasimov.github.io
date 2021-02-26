@@ -167,7 +167,13 @@ input:checked + .slider:before {
   .logo {
     display: none;
   } 
+  .theme-switch-wrapper {
+    position: absolute;
+    right: 100px;
+    top: -35px;
+  }
 }
+
 
 
 html.transition,
