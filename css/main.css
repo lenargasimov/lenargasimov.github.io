@@ -56,23 +56,26 @@ section {
 }
 
 .cv {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.langage {
+.language {
   position: absolute;
-  right: 330px;
+  right: 430px;
   top: 0;
 }
 
-.langage2 {
+.language2 {
   position: absolute;
-  right: 270px;
+  right: 370px;
   top: 0;
 }
 
-
+.about_me {
+  font-size: 20px;
+  font-weight: 500;
+  }
 .theme-switch-wrapper {
   position: absolute;
   right: -120px;
