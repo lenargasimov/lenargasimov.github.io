@@ -16,6 +16,10 @@ html[data-theme='dark'] {
   padding: 30px;
 } 
 
+.experience, ul > li {
+padding: 0 0 0.5em 0;
+}
+
 .logo {
   position: absolute;
   left: 150px;
@@ -75,11 +79,12 @@ section {
 .about_me {
   font-size: 20px;
   font-weight: 500;
-  }
+}
+
 .theme-switch-wrapper {
   position: absolute;
   right: -120px;
-  top: -60px;
+  top: -70px;
 }
 
 .theme-switch-wrapper {
