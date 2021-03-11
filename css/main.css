@@ -48,5 +48,10 @@ section {
   width: 700px;
 }
 
+@media (max-width: 1024px) {
+  .about_me {
+    width: auto;
+  }
+}
 
 
