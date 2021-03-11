@@ -48,24 +48,5 @@ section {
   width: 700px;
 }
 
-@media (max-width: 1024px) {
-  .col-3 {
-    display: none;
-  }
-  .theme-switch-wrapper {
-    display: block;
-  }
-  .nav-item {
-    display: none;
-  }
-  .langage {
-    display: none;
-  }
-  .langage2 {
-    display: none;
-  }
-  .logo {
-    display: none;
-  }
-}
+
 
