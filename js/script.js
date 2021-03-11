@@ -1,17 +1,4 @@
-var checkbox = document.querySelector('.theme-switch__checkbox');
-
-checkbox.addEventListener('change', function(){
-  transition();
-  if (this.checked) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-  }
-})
-
-function transition() {
-  document.documentElement.classList.add('transition');
-  setTimeout(function() {
-    document.documentElement.classList.remove('transition');
-  }, 250)
-}
+let today = new Date();
+let year = today.getFullYear();
+let el = document.getElementById('footer');
+el.innerHTML = '<p>Copyright &copy;' + year + ' Lenar Gasimov</p>';
