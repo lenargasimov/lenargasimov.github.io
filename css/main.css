@@ -24,7 +24,6 @@ h3 {
 }
 
 a {
-  color: #ffffff;
   text-decoration: none;
 }
 
@@ -48,10 +47,16 @@ section {
   width: 700px;
 }
 
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   .about_me {
     width: auto;
   }
 }
+
 
 
