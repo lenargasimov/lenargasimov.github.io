@@ -19,11 +19,8 @@ body {
   color: #ffffff;
 }
 
-h3 {
-  color: #66D9EF;
-}
-
 a {
+  color: #87ceeb;
   text-decoration: none;
 }
 
@@ -56,7 +53,22 @@ section {
   .about_me {
     width: auto;
   }
+
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .about_me {
+    text-align: center;
+  }
 }
+
+
 
 
 
