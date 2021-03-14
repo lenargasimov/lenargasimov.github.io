@@ -54,6 +54,9 @@ section {
 }
 
 @media (max-width: 1024px) {
+  .hello_world_img {
+    width: auto;
+  }
   .about_me {
     width: auto;
   }
