@@ -23,6 +23,11 @@ body {
   color: #ffffff;
 }
 
+.cv {
+  max-width: 1100px;
+  margin: 0 auto;
+} 
+
 a {
   text-decoration: none;
 }
