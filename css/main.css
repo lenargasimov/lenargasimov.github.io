@@ -59,18 +59,11 @@ section {
 
   .about_me {
     width: auto;
+    text-align: center;
   }
 
   .footer {
     margin: 0 auto;
-    text-align: center;
-  }
-
-  .contact {
-    text-align: center;
-  }
-
-  .about_me {
     text-align: center;
   }
 }
