@@ -36,7 +36,7 @@ section {
   position: relative;
 }
 
-.cv {
+.container {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -64,6 +64,10 @@ section {
 
   .footer {
     margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact {
     text-align: center;
   }
 }
