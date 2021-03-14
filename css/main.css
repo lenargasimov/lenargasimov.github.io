@@ -54,7 +54,7 @@ section {
 
 @media (max-width: 1024px) {
   .hello_world_img {
-    width: 300px;
+    width: 100%;
   }
 
   .about_me {
