@@ -1,7 +1,3 @@
-body {
-  margin: 20px;
-  font: 16px 'Open Sans', sans-serif;
-}
 html {
   font-family: Roboto, sans-serif;
 }
@@ -11,21 +7,20 @@ h3 {
 }
 
 .nav > li > a {
-  color: #ffffff;
   padding: 30px;
-}
-
-body {
-  background-color: #202020;
-  color: #ffffff;
+  color: #000000;
 }
 
 a {
   text-decoration: none;
 }
 
+.green {
+  background-color: #9ae6b4;
+}
+
 .contact {
-  color: #ffffff;
+  color: #000000;
 }
 
 section {
@@ -54,7 +49,7 @@ section {
   }
 
   .about_me {
-    width: auto;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
   }

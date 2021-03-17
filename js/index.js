@@ -19,12 +19,8 @@ if (res.np === true) {
     console.log(`[last.fm] Received song data: ${res.name} - ${res.artist}`);
     document.querySelector(
     "#spotify"
-    ).innerHTML = `<div class="bg-green-300 px-6 md:px-4 py-4" style="display:block">
+    ).innerHTML = `<div class="green px-6 md:px-4 py-4" style="display:block">
     <div class="max-w-6xl mx-auto container text-grey-300">
-        <div class="flex">
-        <div class="flex-initial">
-            <i class="fad fa-play-circle mr-2"></i>
-        </div>
         <div class="flex-1">
             Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Spotify</b>
         </div>
@@ -49,3 +45,4 @@ fetch(
 setInterval(getSong, 15 * 1000);
 getSong();
 
+  
