@@ -33,25 +33,19 @@ section {
   margin: 0 auto;
 }
 
-.about_me {
-  font-size: 20px;
-  width: 700px;
-}
-
 .footer {
   margin: 0 auto;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .hello_world_img {
-    width: 100%;
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
   }
 
-  .about_me {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+  .hello_world_img {
+    display: none;
   }
 
   .footer {
