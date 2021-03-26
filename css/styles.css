@@ -36,7 +36,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -64,7 +64,7 @@ a:hover {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto;
   text-align: left;
 }
 
@@ -100,11 +100,8 @@ a:hover {
   bottom: 300px;
 }
 
-.profile-img {
-  width: 180px;
-}
-
 .code-img {
+  border-radius: 50%;
   width: 25%;
   float: left;
   margin-right: 30px;
@@ -144,10 +141,16 @@ a:hover {
 }
 
 .green {
-  text-align: left;
+  height: 72px;
   background-color: #9ae6b4;
 }
 
-.footer-link {
-  width: 30px;
+.spotify-description{
+  position: absolute;
+  left: 10%;
+  top: 25px;
+}
+
+.profile-img {
+  width: 180px;
 }
