@@ -154,3 +154,9 @@ a:hover {
 .profile-img {
   width: 180px;
 }
+
+@media (max-width: 600px){
+  .mountain {
+    width: 0 auto;
+  }
+}
