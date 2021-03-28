@@ -36,10 +36,16 @@ hr {
   margin: 100px auto;
 }
 
-a {
+.footer-link {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
+  text-decoration: none;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
