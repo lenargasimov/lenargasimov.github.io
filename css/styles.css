@@ -95,12 +95,14 @@ a:hover {
 }
 
 .top-cloud {
+  width: 200px;
   position: absolute;
   right: 300px;
   top: 40px;
 }
 
 .bottom-cloud {
+  width: 200px;
   position: absolute;
   left: 250px;
   bottom: 300px;
