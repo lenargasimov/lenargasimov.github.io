@@ -190,3 +190,16 @@ a:hover {
 .profile-img {
   width: 180px;
 }
+
+@media (max-width: 600px) {
+  .bottom-selenium {
+    display: none;
+  }
+  .bottom-jupyter {
+    display: none;
+  }
+  .bottom-beautifulsoup {
+    left: 250px;
+    bottom: 300px;
+  }
+}
