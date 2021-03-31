@@ -101,10 +101,38 @@ a:hover {
   top: 40px;
 }
 
+.top-django {
+  width: 180px;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+}
+
 .bottom-python {
   width: 100px;
   position: absolute;
   left: 250px;
+  bottom: 300px;
+}
+
+.bottom-beautifulsoup {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  bottom: 40px;
+}
+
+.bottom-selenium {
+  width: 100px;
+  position: absolute;
+  right: 300px;
+  bottom: 40px;
+}
+
+.bottom-jupyter {
+  width: 100px;
+  position: absolute;
+  right: 250px;
   bottom: 300px;
 }
 
