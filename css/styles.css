@@ -1,6 +1,6 @@
 body {
   color: #40514E;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
@@ -74,10 +74,6 @@ a:hover {
   text-align: left;
 }
 
-.pro {
-  text-decoration: underline;
-}
-
 .intro {
   width: 30%;
   margin: auto;
@@ -92,34 +88,6 @@ a:hover {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-.top-flask {
-  width: 180px;
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.top-django {
-  width: 180px;
-  position: absolute;
-  left: 300px;
-  top: 40px;
-}
-
-.bottom-python {
-  width: 100px;
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.bottom-beautifulsoup {
-  width: 100px;
-  position: absolute;
-  right: 250px;
-  bottom: 300px;
 }
 
 .code-img {
@@ -176,29 +144,3 @@ a:hover {
 .profile-img {
   width: 180px;
 }
-
-/* @media (max-width: 1024px) {
-  .bottom-selenium {
-    display: none;
-  }
-
-  .bottom-beautifulsoup {
-    right: 350px;
-    bottom: 300px;
-  }
-
-  .bottom-python {
-    left: 350px;
-    bottom: 300px;
-  }
-
-  .top-flask {
-    right: 350px;
-    top: 40px;
-  }
-
-  .top-django {
-    left: 350px;
-    top: 40px;
-  }
-} */
