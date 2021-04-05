@@ -90,7 +90,19 @@ a:hover {
   padding: 20px 0;
 }
 
-.code-img {
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.computer-img {
   border-radius: 50%;
   width: 25%;
   float: left;
@@ -138,6 +150,13 @@ a:hover {
 .spotify-description{
   position: absolute;
   left: 10%;
+  top: 25px;
+}
+
+.play {
+  position: absolute;
+  width: 20px;
+  left: 8%;
   top: 25px;
 }
 
