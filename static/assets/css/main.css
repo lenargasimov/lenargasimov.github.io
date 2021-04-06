@@ -107,6 +107,13 @@
 		}
 	}
 
+	@media screen and (max-width: 1240px) {
+
+		.play {
+			display: none;
+		}
+	}
+	
 	html {
 		box-sizing: border-box;
 	}
