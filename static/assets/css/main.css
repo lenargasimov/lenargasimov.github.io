@@ -101,19 +101,8 @@
 		html, body {
 			min-width: 320px;
 		}
-
-		.play {
-			display: none;
-		}
 	}
 
-	@media screen and (max-width: 1240px) {
-
-		.play {
-			display: none;
-		}
-	}
-	
 	html {
 		box-sizing: border-box;
 	}
