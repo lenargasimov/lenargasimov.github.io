@@ -1,0 +1,10 @@
+.green {
+  height: 72px;
+  background-color: #9ae6b4;
+}
+
+.spotify-description{
+  position: absolute;
+  left: 10%;
+  top: 25px;
+}
