@@ -68,6 +68,10 @@ a:hover {
   padding: 50px 0 20px;
 }
 
+.pro {
+  text-decoration: underline;
+}
+
 .skill-row {
   width: 50%;
   margin: 100px auto;
@@ -115,6 +119,35 @@ a:hover {
   margin-left: 30px;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 0 450px;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -157,3 +190,8 @@ a:hover {
   width: 180px;
 }
 
+@media (min-width: 600px) {
+     .container {
+        padding: 0 30%;
+     }
+   }
