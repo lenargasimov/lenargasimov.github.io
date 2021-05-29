@@ -1,117 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP42LSHPTS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta charset="UTF-8">
+    <title>Lenar Gasimov</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://github.com/lenargasimov.png">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Lenar Gasimov">
+    <meta property="og:description" content="Hi there, nice to meet you. I'm Lenar Gasimov. Welcome to my world!">
+    <meta property="og:url" content="https://lenargasimov.dev">
+    <meta property="og:image" content="https://github.com/lenargasimov.png">
+    <meta property="profile:first_name" content="Lenar">
+    <meta property="profile:last_name" content="Gasimov">
+    <meta name="theme-color" content="#131313">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 
-    gtag('config', 'G-RP42LSHPTS');
-  </script>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-
-  <title>Lenar Gasimov</title>
-  <link rel="icon" type="image/png" href="https://github.com/lenargasimov.png">
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Lenar Gasimov">
-  <meta property="og:description" content="Hi there, nice to meet you. I'm Lenar Gasimov. Welcome to my world!">
-  <meta property="og:url" content="https://lenargasimov.dev">
-  <meta property="og:image" content="https://github.com/lenargasimov.png">
-  <meta property="profile:first_name" content="Lenar">
-  <meta property="profile:last_name" content="Gasimov">
-  <meta name="theme-color" content="#131313">
-
-  <link rel="stylesheet" href="static/style.css">
-  <link href="static/main.css" rel="stylesheet">
 </head>
+<!-- Spotify alert -->
+<div id="spotify"></div>
+<body class="bg">
 
+    <ul class="topnav">
+      <li><a class="active" href="#home">01 : Home</a></li>
+      <li><a href="templates/works.html">02 : Works</a></li>
+      <li><a href="templates/about.html">03 : About me</a></li>
+      <li class="right"><a href="templates/contact.html">04 : Contact</a></li>
+      <li><a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a></li>
+      <li><a href="templates/cv.html">06 : CV</a></li>
+      <li><a href="templates/faq.html">07: FAQ</a></li>
+    </ul>
 
-<body class="minimal">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-<!-- Add your content of header -->
+    <p class="dsongentom desetungavon">I'm Lenar Gasimov, Python Developer</p>
 
-<header>
+    <!--Buy me a coffee-->
+    <a class="coffee" href="https://www.buymeacoffee.com/lenargasimov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 150px !important;" ></a>
 
-  <nav class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+    <p class="time_description">TIME IN NABEREZHNYE CHELNY - </p>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav ">
-          <li><a href="../index.html" title="">01 : Home</a></li>
-          <li><a href="templates/works.html" title="">02 : Works</a></li>
-          <li><a href="templates/about.html" title="">03 : About me</a></li>
-          <li><a href="templates/contact.html" title="">04 : Contact</a></li>
-          <li><a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a></li>
-          <li><a href="./cv.html" target="_blank">06 : CV</a></li>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-</header>
-
-
-<!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Lenar Gasimov</span>
-                  <span>Python Developer</span>
-                  <span>Working as a Freelance</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
-
-              <!--Watch-->
-              <iframe src="https://free.timeanddate.com/clock/i7tl99n6/n1912/szw110/szh110/hocbbb/hbw6/cf100/hgr0/fas16/fdi64/mqc000/mqs4/mql20/mqw2/mqd94/mhc000/mhs3/mhl20/mhw2/mhd94/mmc000/mml10/mmw1/mmd94/hmr7/hsc000/hss1/hsl90" frameborder="0" width="110" height="110"></iframe>
-              <br>
-              <br>
-
-              <!--Buy me a coffee-->
-              <a href="https://www.buymeacoffee.com/lenargasimov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- Footer -->
+  <div class="bottom-container" style="padding: 700px 0 20px;">
+    <!-- Year update -->
+    <p class="copyright" style="color: white;">&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> Lenar Gasimov.</p>
   </div>
 
-  <!-- Spotify alert -->
-<div id="spotify"></div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
-
-<script type="text/javascript" src="static/script.js"></script>
-</body>
 <script src="js/index.js"></script>
 
-
+</body>
 </html>
