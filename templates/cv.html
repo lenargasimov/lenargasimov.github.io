@@ -26,6 +26,8 @@
 
   <link rel="stylesheet" href="../css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -33,15 +35,18 @@
  <div id="spotify"></div>
 
   <!--    Navigation-->
-  <ul>
-    <li><a href="../index.html">01 : Home</a></li>
-    <li><a href="#">02 : Works</a></li>
-    <li><a href="../templates/about.html">03 : About me</a></li>
-    <li><a href="../templates/contact.html">04 : Contact</a></li>
-    <li><a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a></li>
-    <li class="right active"><a href="../templates/cv.html">06 : CV</a></li>
-    <li><a href="../templates/faq.html">07: FAQ</a></li>
-  </ul>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">01 : Home</a>
+      <a href="../templates/works.html">02 : Works</a>
+      <a href="../templates/about.html">03 : About me</a>
+      <a href="../templates/contact.html">04 : Contact</a>
+      <a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a>
+      <a class="active" href="../templates/cv.html">06 : CV</a>
+      <a href="../templates/faq.html">07: FAQ</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
   <div class="top-container">
     <img class="top-cloud" src="../images/cloud.png" alt="cloud">
@@ -100,7 +105,7 @@
       <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are!
         We can code while we eat hot wings!</p>
 
-      <div class="container">
+      <div class="contact_text">
         <form action="https://formspree.io/f/xdoyagbr" method="POST">
           <input type="text" id="email" name="_replyto" placeholder="Email">
           <input type="text" id="subject" name="subject" placeholder="Subject">

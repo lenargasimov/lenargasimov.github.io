@@ -16,35 +16,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700;&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!-- Spotify alert -->
 <div id="spotify"></div>
-<body class="bg">
-
-    <ul class="topnav">
-      <li><a class="active" href="#home">01 : Home</a></li>
-      <li><a href="templates/works.html">02 : Works</a></li>
-      <li><a href="templates/about.html">03 : About me</a></li>
-      <li class="right"><a href="templates/contact.html">04 : Contact</a></li>
-      <li><a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a></li>
-      <li><a href="templates/cv.html">06 : CV</a></li>
-      <li><a href="templates/faq.html">07: FAQ</a></li>
-    </ul>
+<body>
+<div class="bg">
+    <div class="topnav" id="myTopnav"">
+      <a style="color: white;" class="active" href="#home">01 : Home</a>
+      <a style="color: white;" href="templates/works.html">02 : Works</a>
+      <a style="color: white;" href="templates/about.html">03 : About me</a>
+      <a style="color: white;" href="templates/contact.html">04 : Contact</a>
+      <a style="color: white;" href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a>
+      <a style="color: white;" href="templates/cv.html">06 : CV</a>
+      <a style="color: white;" href="templates/faq.html">07: FAQ</a>
+        <a style="color: white; href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <p class="dsongentom desetungavon">I'm Lenar Gasimov, Python Developer</p>
 
-    <!--Buy me a coffee-->
-    <a class="coffee" href="https://www.buymeacoffee.com/lenargasimov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 150px !important;" ></a>
-
-    <p class="time_description">TIME IN NABEREZHNYE CHELNY - </p>
-    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-
   <!-- Footer -->
   <div class="bottom-container" style="padding: 700px 0 20px;">
+    <p class="time_description">Time in Naberezhnye Chelny<div id="MyClockDisplay" class="clock" onload="showTime()"></div></p>
+          <!--Buy me a coffee-->
+<!--    <a href="https://www.buymeacoffee.com/lenargasimov" target="_blank"><img class="coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 150px !important;" ></a>-->
+
     <!-- Year update -->
     <p class="copyright" style="color: white;">&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> Lenar Gasimov.</p>
   </div>
+</div>
 
 <script src="js/index.js"></script>
 

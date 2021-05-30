@@ -14,25 +14,30 @@
     <meta property="profile:last_name" content="Gasimov">
     <meta name="theme-color" content="#131313">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <!-- Spotify alert -->
 <div id="spotify"></div>
-    <ul style="color: black;">
-      <li><a href="../index.html">01 : Home</a></li>
-      <li><a href="../templates/works.html">02 : Works</a></li>
-      <li class="right active"><a href="#">03 : About me</a></li>
-      <li><a href="../templates/contact.html">04 : Contact</a></li>
-      <li><a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a></li>
-      <li><a href="../templates/cv.html">06 : CV</a></li>
-      <li><a href="../templates/faq.html">07: FAQ</a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">01 : Home</a>
+      <a href="../templates/works.html">02 : Works</a>
+      <a class="active" href="../templates/about.html">03 : About me</a>
+      <a href="../templates/contact.html">04 : Contact</a>
+      <a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a>
+      <a href="../templates/cv.html">06 : CV</a>
+      <a href="../templates/faq.html">07: FAQ</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <h2>03 : About me</h2>
-    <div class="skill-row">
-        <img class="chilli-img" src="../images/profile.jpg" alt="profile_pic">
+    <div class="flex-container">
+        <div class="flex-item-left">
         <h3>My name is Lenar</h3>
-          <p>I've been writing code daily for over a year. In the past, he worked in sales, was engaged in the purchase of
+          <p>In the past, worked in sales, was engaged in the purchase of
             games for consoles, vinyl records, negotiated with suppliers. I did not find a similar position, I mastered a new
             profession for me Python developer, I am looking for an “entry point”, I will be glad to suggestions.
             New challenges do not bother me, but rather inspire, because they give me the opportunity to grow and develop, and
@@ -42,6 +47,10 @@
         <h3>Skills</h3>
           <p>I specialize in full stack web development and writing readable code. Python, Flask, HTML, CSS,
             Bootstrap, Git, SQLite.</p>
+        </div>
+        <div class="flex-item-right">
+            <img class="profile_img" src="../images/profile.jpg" alt="profile_pic">
+        </div>
     </div>
 
 
