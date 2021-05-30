@@ -229,20 +229,20 @@ input[type=submit]:hover {
    display: block;
   }
   .intro {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   .skill-row {
-    width: 100%;
+    width: 90%;
     margin: 100px auto;
     text-align: center;
   }
   .contact-message {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   .contact_text {
-    width: 100%;
+    width: 90%;
     margin: 40px auto 60px;
   }
   .mountain {

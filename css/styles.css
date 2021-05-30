@@ -100,6 +100,12 @@ input[type=submit] {
   text-align: left;
 }
 
+.works {
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: center;
+}
+
 .coffee {
   margin: 0;
   text-align
@@ -283,20 +289,25 @@ li a {
     display: block;
   }
   .contact_text {
-    width: 100%;
+    width: 90%;
     margin: 40px auto 60px;
   }
   .container {
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
   }
   .faq {
-    width: 100%;
+    width: 90%;
     margin: 50px 15px 50px 15px;
     text-align: left;
   }
+  .works {
+    width: 90%;
+    margin: 50px 15px 50px 15px;
+    text-align: center;
+  }
   .about {
-    width: 100%;
+    width: 90%;
     margin: 50px 15px 50px 15px;
     text-align: left;
   }
