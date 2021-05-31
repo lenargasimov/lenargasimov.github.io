@@ -235,7 +235,7 @@ input[type=submit]:hover {
   .skill-row {
     width: 90%;
     margin: 100px auto;
-    text-align: center;
+    text-align: left;
   }
   .contact-message {
     width: 90%;

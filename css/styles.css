@@ -77,7 +77,7 @@ input[type=submit] {
 .flex-item-left {
   padding: 10px;
   flex: 50%;
-  text-align: center;
+  text-align: left;
 }
 
 .flex-item-right {
