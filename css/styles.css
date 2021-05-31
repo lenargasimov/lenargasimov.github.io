@@ -97,7 +97,7 @@ input[type=submit] {
 .flex-item-left {
   padding: 10px;
   flex: 50%;
-  text-align: left;
+  text-align: justify;
 }
 
 .flex-item-right {
@@ -171,7 +171,7 @@ input[type=submit] {
 .work_text {
   width: 50%;
   margin: 20px auto;
-  text-align: center;
+  text-align: justify;
 }
 
 .price {

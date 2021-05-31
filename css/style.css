@@ -77,7 +77,7 @@ a:hover {
 .skill-row {
   width: 50%;
   margin: 100px auto;
-  text-align: left;
+  text-align: justify;
 }
 
 .intro {
@@ -235,7 +235,6 @@ input[type=submit]:hover {
   .skill-row {
     width: 90%;
     margin: 100px auto;
-    text-align: left;
   }
   .contact-message {
     width: 90%;
