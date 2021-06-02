@@ -323,6 +323,10 @@ li a {
     margin: 50px 15px 50px 15px;
     text-align: center;
   }
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
   .about {
     width: 90%;
     margin: 50px 15px 50px 15px;
