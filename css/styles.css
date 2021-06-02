@@ -276,7 +276,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/* Type Writer */
 @keyframes typewriter{
   from {
   width: 0;
