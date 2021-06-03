@@ -75,6 +75,15 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.footer-link {
+  margin: 25px;
+  text-align: center;
+}
+
+.footer-link-contact {
+  padding: 14px 12px;
+}
+
 .copyright {
   color: #ffffff;
   font-size: 0.75rem;

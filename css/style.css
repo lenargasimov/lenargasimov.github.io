@@ -227,6 +227,15 @@ input[type=submit]:hover {
   display: none;
 }
 
+.footer-link {
+  margin: 15px;
+  text-align: center;
+}
+
+.footer-link-contact {
+  padding: 14px 12px;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a {
    display: none;
