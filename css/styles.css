@@ -298,7 +298,7 @@ li a {
 }
 
 @media screen and (max-width: 1024px) {
-  .topnav a:not(:first-child) {
+  .topnav a {
     display: none;
   }
   .topnav a.icon {
