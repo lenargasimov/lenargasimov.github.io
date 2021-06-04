@@ -205,14 +205,14 @@ input[type=submit] {
 }
 
 .green {
-  height: 72px;
+  padding: 20px;
   background-color: #9ae6b4;
 }
 
 .spotify-description{
-  position: absolute;
-  left: 4%;
-  top: 25px;
+  position: relative;
+  margin: 0;
+  text-align: left;
 }
 
 .clock {
@@ -350,15 +350,6 @@ li a {
   }
   .profile_img{
     width: 100%;
-  }
-  .green {
-    height: 74px;
-    background-color: #9ae6b4;
-  }
-  .spotify-description{
-    position: absolute;
-    left: 4%;
-    top: 10px;
   }
   .dsongentom {
     position: relative;

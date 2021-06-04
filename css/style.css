@@ -178,14 +178,14 @@ input[type=submit]:hover {
 }
 
 .green {
-  height: 72px;
+  padding: 20px;
   background-color: #9ae6b4;
 }
 
 .spotify-description{
-  position: absolute;
-  left: 10%;
-  top: 25px;
+  position: relative;
+  margin: 0;
+  text-align: left;
 }
 
 .profile-img {
