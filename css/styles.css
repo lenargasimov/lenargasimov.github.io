@@ -106,7 +106,7 @@ input[type=submit] {
 .flex-item-left {
   padding: 10px;
   flex: 50%;
-  text-align: justify;
+  text-align: left;
 }
 
 .flex-item-right {
