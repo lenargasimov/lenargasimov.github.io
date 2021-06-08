@@ -41,8 +41,13 @@ h2 {
 }
 
 .contact_text {
-  width: 50%;
-  margin: 50px 370px 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-text-main {
+  width: 60%;
+  margin: 0 auto;
 }
 
 input[type=text], select, textarea {
@@ -306,6 +311,51 @@ li a {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .topnav a {
     display: none;
@@ -375,6 +425,10 @@ li a {
     width: 100%;
     margin: 20px auto;
     text-align: center;
+  }
+
+  .contact-text-main {
+    width: 90%;
   }
 }
 
