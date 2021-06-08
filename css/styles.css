@@ -1,4 +1,8 @@
 /* Main styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto Mono', monospace;
   margin: 0 auto;
@@ -290,12 +294,12 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 /* Type Writer */
 @keyframes typewriter{
   from {
   width: 0;
   }
-
   to {
   width: 24em;
   }
@@ -305,14 +309,9 @@ li a {
   from {
   border-right-color: rgba(255,255,255,.75);
   }
-
   to {
   border-right-color: transparent;
   }
-}
-
-* {
-  box-sizing: border-box;
 }
 
 /* Style inputs */
@@ -365,7 +364,7 @@ input[type=submit] {
     display: block;
   }
   .contact_text {
-    width: 90%;
+    width: 100%;
     margin: 40px auto 60px;
   }
   .container {
