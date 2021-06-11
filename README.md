@@ -1,20 +1,10 @@
 # Portfolio [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?&url=https://github.com/lenargasimov/lenargasimov.github.io&via=lenargasimov&hashtags=html,css,js,cv,portfolio,developers)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/lenargasimov/lenargasimov.github.io?style=plastic)
+![](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io.svg)
+![](https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io.svg)
 
 On this website, I document interesting things I learned and share my experience with you.
-
-## Features
-
-🛠 `Portfolio`
-
-🌿 `About me`
-
-📬 `Contact`, send a email through the feedback form
-
-☕ `CV`
-
-🔮 `FAQ`
 
 Main            |  Works
 :-------------------------:|:-------------------------:
