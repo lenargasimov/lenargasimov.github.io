@@ -237,12 +237,10 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a {
-   display: none;
-   }
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-   float: right;
-   display: block;
+    float: right;
+    display: block;
   }
   .intro {
     width: 90%;

@@ -16,6 +16,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.img-logo {
+  color: #ffffff;
+  font-size: 0.75rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -246,7 +253,7 @@ input[type=submit] {
 .topnav {
   overflow: hidden;
   position: relative;
-  left: 5px;
+  left: 30px;
   top: 15px;
 }
 
@@ -356,9 +363,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 1024px) {
-  .topnav a {
-    display: none;
-  }
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -425,6 +430,7 @@ input[type=submit] {
     margin: 20px auto;
     text-align: center;
   }
+
   .contact-text-main {
     width: 90%;
   }
