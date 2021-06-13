@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="https://github.com/lenargasimov/lenargasimov.github.io/blob/main/images/profile.png?raw=true">
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Lenar Gasimov">
-    <meta property="og:description" content="Hi there, nice to meet you. I'm Lenar Gasimov. Welcome to my world!">
+    <meta property="og:description" content="Lenar Gasimov's personal website">
     <meta property="og:url" content="https://lenargasimov.dev">
     <meta property="og:image" content="https://github.com/lenargasimov.png">
     <meta property="profile:first_name" content="Lenar">
@@ -28,39 +28,38 @@
 
 </head>
 <body>
-<!-- Spotify alert -->
-<div id="spotify"></div>
-    <div class="topnav" id="myTopnav">
-      <a href="../index.html">01 : Home</a>
-      <a href="../templates/works.html">02 : Works</a>
-      <a class="active" href="../templates/about.html">03 : About me</a>
-      <a href="../templates/contact.html">04 : Contact</a>
-      <a href="https://lenar-blog.herokuapp.com" target="_blank">05 : Blog</a>
-      <a href="../templates/cv.html">06 : CV</a>
-      <a href="../templates/faq.html">07 : FAQ</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    <!-- Spotify alert -->
+    <div id="spotify"></div>
 
-    <h2>03 : About me</h2>
-    <div class="flex-container">
-        <div class="flex-item-left">
-        <h3>My name is Lenar</h3>
-          <p>I am a Python developer. I am looking for new opportunities to implement and
-              increase my skills in software development and web development. New challenges don't bother me,
-              but rather inspire, as they give me the opportunity to grow up and develop, and the habit of not give up
-              helps me in this. Creating and building projects that solve or fix a problem is a high priority for me.
-              Interested in web frameworks and everything related to Python. I love to code and learning new stuff. Completed #100DaysOfCode.</p>
-        <h3>Skills</h3>
-          <p>I specialize in full stack web development and writing readable code. HTML, CSS, Bootstrap, Python, Flask, Django, Git, Docker, PostgreSQL, Linux, Jupyter Notebook, PyCharm.</p>
-        </div>
-        <div class="flex-item-right">
-            <img class="profile_img" src="../images/profile.jpg" alt="profile_pic">
+    <!--    Navbar-->
+    <div class="navigation-bar">
+        <div id="navigation-container">
+            <div class="topnav" id="myTopnav">
+              <img class="logo" src="../images/profile.png">
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="../templates/about.html">About</a></li>
+                <li><a href="../templates/works.html">Portfolio</a></li>
+                <li><a href="https://lenar-blog.herokuapp.com" target="_blank">Blog</a></li>
+                <li><a href="../templates/cv.html">CV</a></li>
+                <li><a href="../templates/faq.html">FAQ</a></li>
+                <li><a href="../templates/contact.html">Contact</a></li>
+              </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            </div>
         </div>
     </div>
 
-
+    <!--    About me-->
+    <h1>Lenar Gasimov</h1>
+    <div class="middle-container">
+        <img class="profile-img" src="../images/profile.jpg" alt="profile_pic">
+        <p class="intro">Hi! I'm a web developer, Interested in web frameworks and everything related to Python.
+            I love to code and learning new stuff. Completed <a href="https://github.com/lenargasimov/100-days-of-python" target="_blank">#100DaysOfCode</a>.
+            If you've got a python/django package you'd like help maintaining, get in touch.</p>
+    </div>
   <!-- Footer -->
   <div class="bottom-container">
       <div class="footer-link">
