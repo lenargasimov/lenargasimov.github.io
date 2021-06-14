@@ -49,13 +49,8 @@ h2, h3, h4 {
 }
 
 .contact-me {
-  margin: 30px auto 60px;
+  margin: 0 auto;
   text-align: center;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
 }
 
 .contact_text {
@@ -394,6 +389,7 @@ input[type=text], select, textarea {
   .navigation-bar li a {
     display: none;
     background-color: #111;
+    opacity: 0.9;
     width: 300px;
     padding: 10;
     line-height: 60px;
