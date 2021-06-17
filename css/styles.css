@@ -231,16 +231,22 @@ input[type=submit] {
 }
 
 .clock {
-  margin: 0;
+  margin: 0 auto;
   color: #ffffff;
+  background-color: #111;
+  opacity: 0.9;
+  max-width: 190px;
   font-size: 0.80rem;
   letter-spacing: 5px;
   text-align: center;
 }
 
 .time_description {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
+  background-color: #111;
+  max-width: 190px;
+  opacity: 0.9;
   color: #fff;
   font-size: 0.80rem;
 }
@@ -272,6 +278,7 @@ input[type=submit] {
   height: 70px;
   width: 100%;
   text-align: left;
+  background-color: rgb(255, 255, 255, 0.9);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
