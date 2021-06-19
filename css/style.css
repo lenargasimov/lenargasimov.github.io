@@ -4,7 +4,7 @@ body {
   color: #40514E;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -47,7 +47,7 @@ hr {
 
 a {
   color: #11999E;
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
@@ -270,6 +270,7 @@ input[type=submit]:hover {
 .study {
   text-align: left;
   list-style: none;
+  line-height: 2;
 }
 
 @media screen and (max-width: 600px) {
