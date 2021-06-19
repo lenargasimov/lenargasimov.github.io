@@ -117,16 +117,17 @@ input[type=submit] {
 }
 
 .intro {
-  width: 30%;
+  width: 28%;
   margin: 30px auto 15px auto;
   text-align: center;
 }
 
 .profile-img {
   border-radius: 20px;
-  width: 400px;
+  width: 410px;
   display: block;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .middle-container {
