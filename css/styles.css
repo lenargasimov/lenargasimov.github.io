@@ -124,7 +124,7 @@ input[type=submit] {
 
 .profile-img {
   border-radius: 20px;
-  width: 410px;
+  width: 28%;
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -439,8 +439,8 @@ input[type=text], select, textarea {
     margin: 50px 15px 50px 15px;
     text-align: left;
   }
-  .profile_img{
-    width: 90%;
+  .profile-img {
+    width: 99%;
   }
   .dsongentom {
     position: relative;
