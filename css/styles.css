@@ -81,17 +81,15 @@ input[type=submit] {
 }
 
 .btn {
-  padding: 6px 20px;
+  background-color: #111;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  color: #33b2db;
-  background-color: #ffffff;
-  border: 1px solid #33b2db;
-  border-radius: 5px;
-  font-weight: 500;
 }
 
 .footer-link {
