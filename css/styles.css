@@ -121,7 +121,6 @@ input[type=submit] {
 }
 
 .profile-img {
-  border-radius: 20px;
   width: 28%;
   display: block;
   margin: 0 auto;
