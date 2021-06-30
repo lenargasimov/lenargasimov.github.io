@@ -4,6 +4,8 @@
 ![](https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io.svg)
 ![](https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io.svg)
 
+![](https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif)
+
 On this website, I document interesting things I learned and share my experience with you.
 
 Main            |  Works
