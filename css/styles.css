@@ -121,7 +121,7 @@ input[type=submit] {
 }
 
 .profile-img {
-  width: 20%;
+  width: 28%;
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -264,9 +264,10 @@ input[type=submit] {
 .logo {
   margin: 5px;
   width: 60px;
+  border-radius: 50%;
 }
-/* ~~ Top Navigation Bar ~~ */
 
+/* ~~ Top Navigation Bar ~~ */
 #navigation-container {
   margin: 0 0 0 170px;
   height: 70px;
@@ -308,6 +309,38 @@ input[type=submit] {
 
 #menu {
   float: right;
+}
+
+.container-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+}
+
+.header-title {
+  font-size: 3.5em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.header-description {
+  font-size: 1.5em;
+}
+
+.centered {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(60%);
+  opacity: 0.93;
 }
 
 .list-work {
