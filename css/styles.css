@@ -124,11 +124,11 @@ input[type=submit] {
   width: 28%;
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 .middle-container {
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 .faq {
@@ -316,6 +316,7 @@ input[type=submit] {
   text-align: center;
   color: white;
   line-height: 1.2;
+  z-index: -1;
 }
 
 .header-title {
@@ -341,6 +342,7 @@ input[type=submit] {
   object-fit: cover;
   filter: brightness(60%);
   opacity: 0.93;
+  position: relative;
 }
 
 .list-work {
@@ -433,7 +435,7 @@ input[type=text], select, textarea {
     line-height: 60px;
   }
   #navigation-container {
-    margin: 0 0 0 10px;
+    margin: 0 auto;
     padding: 0;
   }
   .topnav a.icon {
