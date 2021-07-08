@@ -102,8 +102,8 @@ input[type=submit] {
 }
 
 .copyright {
-  color: #ffffff;
-  font-size: 0.75rem;
+  color: #999999;
+  font-size: 0.80rem;
   margin-bottom: 50px;
   text-align: center;
 }
