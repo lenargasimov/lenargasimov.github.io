@@ -97,7 +97,6 @@ a:hover {
 .copyright {
   color: #EAF6F6;
   font-size: 0.80rem;
-  padding: 20px 0;
 }
 
 .top-cloud {
@@ -182,7 +181,8 @@ input[type=submit]:hover {
 
 .spotify-description{
   position: relative;
-  margin: 0;
+  margin-left: 155px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -258,7 +258,7 @@ input[type=submit]:hover {
 }
 
 .footer-link {
-  margin: 15px;
+  margin: 30px;
   text-align: center;
 }
 
@@ -312,6 +312,9 @@ input[type=submit]:hover {
   .mountain {
     width: 100%;
     margin: 0 auto;
+  }
+  .spotify-description {
+    margin: 0;
   }
 }
 

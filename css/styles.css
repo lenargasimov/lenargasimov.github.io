@@ -92,8 +92,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
+.bottom-container {
+  padding: 20px 0 20px;
+}
+
 .footer-link {
-  margin: 25px;
+  margin: 30px;
   text-align: center;
 }
 
@@ -104,7 +108,6 @@ input[type=submit] {
 .copyright {
   color: #999999;
   font-size: 0.80rem;
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -125,6 +128,7 @@ input[type=submit] {
   display: block;
   margin: 0 auto;
   padding: 20px;
+
 }
 
 .middle-container {
@@ -133,7 +137,7 @@ input[type=submit] {
 
 .faq {
   width: 50%;
-  margin: 50px auto 50px;
+  margin: 50px auto 30px;
   text-align: left;
 }
 
@@ -221,9 +225,9 @@ input[type=submit] {
   background-color: #9ae6b4;
 }
 
-.spotify-description{
+.spotify-description {
   position: relative;
-  margin: 0;
+  margin-left: 155px;
   text-align: left;
   font-size: 18px;
 }
@@ -346,26 +350,24 @@ input[type=submit] {
 }
 
 .list-work {
-  list-style-type: none;
-  margin: 10;
-  padding: 10;
-  overflow: hidden;
+  text-align: center;
+}
+
+.list-work ul {
+  display: inline-block;
 }
 
 .list-work li {
-  float: left;
-}
-
-.list-work li:last-child {
-  border-right: none;
+  display: inline;
 }
 
 .list-work li a {
-  display: block;
   color: black;
-  text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+}
+
+.list-work a.active {
+  color: #33b2db;
 }
 
 /* Type Writer */
@@ -516,6 +518,9 @@ input[type=text], select, textarea {
   }
   .intro {
     width: 96%;
+  }
+  .spotify-description {
+    margin: 0;
   }
 }
 
