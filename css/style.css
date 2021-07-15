@@ -272,6 +272,11 @@ input[type=submit]:hover {
   line-height: 2;
 }
 
+.skills-icon {
+  padding: 14px 90px  30px 14px;
+
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
