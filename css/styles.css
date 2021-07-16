@@ -93,7 +93,7 @@ input[type=submit] {
 }
 
 .bottom-container {
-  padding: 20px 0 20px;
+  padding: 0 20px;
 }
 
 .footer-link {
@@ -436,6 +436,7 @@ input[type=text], select, textarea {
   .topnav.responsive a {
     float: none;
     display: block;
+    text-align: left;
   }
   .topnav a:not(:first-child) {
     display: none;
@@ -536,7 +537,7 @@ input[type=text], select, textarea {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
   .dsongentom {
     font-size: 12px;

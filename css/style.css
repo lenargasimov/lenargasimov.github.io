@@ -272,8 +272,12 @@ input[type=submit]:hover {
   line-height: 2;
 }
 
+.skills-container {
+  margin: 0 50px 0 50px;
+}
+
 .skills-icon {
-  margin: 14px 60px;
+  padding: 14px 60px;
  }
 
 @media screen and (max-width: 600px) {
@@ -319,6 +323,12 @@ input[type=submit]:hover {
   }
   .spotify-description {
     margin: 0;
+  }
+  .skills-container {
+    margin: 0 5px 0 5px;
+  }
+  .skills-icon {
+    padding: 5px 5px;
   }
 }
 
