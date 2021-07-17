@@ -76,7 +76,7 @@ a:hover {
 .skill-row {
   width: 50%;
   margin: 100px auto;
-  text-align: justify;
+  text-align: left;
 }
 
 .intro {
@@ -190,13 +190,7 @@ input[type=submit]:hover {
   width: 180px;
 }
 
-.sertificate {
-  width: 100%;
-  margin: 20px auto;
-}
-
 /* ~~ Top Navigation Bar ~~ */
-
 #navigation-container {
   margin: 0 0 0 170px;
   height: 70px;
@@ -325,10 +319,16 @@ input[type=submit]:hover {
     margin: 0;
   }
   .skills-container {
-    margin: 0 5px 0 5px;
+    margin: 0 15px;
   }
   .skills-icon {
     padding: 5px 5px;
+  }
+  .computer-img {
+    width: 100%;
+  }
+  .chilli-img {
+    width: 100%;
   }
 }
 
