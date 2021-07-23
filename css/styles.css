@@ -111,6 +111,14 @@ input[type=submit] {
   text-align: center;
 }
 
+.heart-img {
+  width: 14px;
+}
+
+.coffee-img {
+  width: 20px;
+}
+
 .skill-row {
   width: 60%;
   margin: 100px auto;

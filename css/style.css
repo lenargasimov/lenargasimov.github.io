@@ -99,6 +99,14 @@ a:hover {
   font-size: 0.80rem;
 }
 
+.heart-img {
+  width: 14px;
+}
+
+.coffee-img {
+  width: 20px;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
