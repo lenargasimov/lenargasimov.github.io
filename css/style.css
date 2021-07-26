@@ -79,6 +79,12 @@ a:hover {
   text-align: left;
 }
 
+.project-icon {
+  width: 100px;
+  float: left;
+  margin-right: 15px;
+}
+
 .intro {
   width: 30%;
   margin: auto;
@@ -279,8 +285,8 @@ input[type=submit]:hover {
 }
 
 .skills-icon {
-  padding: 14px 60px;
- }
+  padding: 40px 100px;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
