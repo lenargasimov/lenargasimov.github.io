@@ -15,6 +15,8 @@
 
 On this website, I document interesting things I learned and share my experience with you.
 
+Check out the website at [lenargasimov.dev](https://lenargasimov.dev).
+
 Main            |  Works
 :-------------------------:|:-------------------------:
 ![](images/main_screen.png)  |  ![](images/works_screen.png)
@@ -27,7 +29,9 @@ CV            |  Faq
 :-------------------------:|:-------------------------:
 ![](images/cv_screen.png)  |  ![](images/faq_screen.png)
 
-Check out the website at [lenargasimov.dev](https://lenargasimov.dev).
+- HTML 5
+- CSS 3
+- JS
 
 ## 👨‍💻 Author
 
