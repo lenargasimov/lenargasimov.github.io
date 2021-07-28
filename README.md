@@ -17,17 +17,7 @@ On this website, I document interesting things I learned and share my experience
 
 Check out the website at [lenargasimov.dev](https://lenargasimov.dev).
 
-Main            |  Works
-:-------------------------:|:-------------------------:
-![](images/main_screen.png)  |  ![](images/works_screen.png)
-
-About            |  Contact
-:-------------------------:|:-------------------------:
-![](images/about_screen.png)  |  ![](images/contact_screen.png)
-
-CV            |  Faq
-:-------------------------:|:-------------------------:
-![](images/cv_screen.png)  |  ![](images/faq_screen.png)
+![](image/screen.png)
 
 - HTML 5
 - CSS 3
