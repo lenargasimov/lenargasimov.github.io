@@ -57,7 +57,7 @@ a:hover {
   width: 70%;
   margin: 0 auto;
   color: #B05279;
-  text-align: left;
+  text-align: center;
   padding-bottom: 50px;
 }
 
@@ -74,6 +74,10 @@ img {
   display: block;
   margin: 0 auto;
   padding: 20px 0 20px 0;
+}
+
+.download-icon {
+  width: 70px;
 }
 
 .project {
