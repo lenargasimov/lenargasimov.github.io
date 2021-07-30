@@ -53,6 +53,10 @@ a:hover {
   color: #B4D273;
 }
 
+.intro-container {
+  margin-top: 250px;
+}
+
 .intro {
   width: 70%;
   margin: 0 auto;
@@ -67,6 +71,10 @@ a:hover {
 
 .description {
   color: #797979;
+  font-size: 16px;
+}
+
+.description-link {
   font-size: 16px;
 }
 
@@ -142,6 +150,9 @@ img {
   }
   .project {
     width: 90%;
+  }
+  .intro-container {
+    margin-top: 50px;
   }
 }
 
