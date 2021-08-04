@@ -84,6 +84,16 @@ img {
   padding: 20px 0 20px 0;
 }
 
+.skills-container {
+  margin: 0 50px 0 50px;
+}
+
+.skills-icon {
+  width: 80px;
+  display: inline;
+  padding: 40px 100px;
+}
+
 .download-icon {
   width: 70px;
 }
@@ -125,7 +135,7 @@ img {
 
 .green {
   padding: 20px;
-  background-color: #03DAC6;
+  background-color: #00c753;
 }
 
 .spotify-description{
@@ -153,6 +163,13 @@ img {
   }
   .intro-container {
     margin-top: 50px;
+  }
+  .skills-container {
+    margin: 0 15px;
+  }
+  .skills-icon {
+    width: 20%;
+    padding: 5px 5px;
   }
 }
 
