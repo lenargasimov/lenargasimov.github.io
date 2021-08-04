@@ -7,6 +7,21 @@ body {
   text-align: center;
 }
 
+/* Spotify */
+.spotify-alert {
+  padding: 20px;
+  background-color: #00c753;
+}
+
+.spotify-description{
+  position: relative;
+  margin-left: 15px;
+  font-size: 18px;
+  text-align: left;
+  color: #40514E;
+}
+
+/* Navigation
 .topnav {
   overflow: hidden;
   padding: 15px 0 100px 15px;
@@ -27,7 +42,9 @@ body {
 .topnav .icon {
   display: none;
 }
+*/
 
+/* Intro */
 h1 {
   color: #6C99BB;
   font-size: 64px;
@@ -35,7 +52,7 @@ h1 {
 
 a {
   font-size: 18px;
-  color: #d6d6d6;
+  color: #5793c1;
   text-decoration: none;
 }
 
@@ -44,7 +61,7 @@ a:hover {
 }
 
 .title {
-  color: #d6d6d6;
+  color: #a9b7c6;
   font-size: 24px;
   padding-top: 50px;
 }
@@ -69,6 +86,7 @@ a:hover {
   font-size: 24px;
 }
 
+/* Development */
 .description {
   color: #797979;
   font-size: 16px;
@@ -84,6 +102,15 @@ img {
   padding: 20px 0 20px 0;
 }
 
+.hackerman {
+  width: 100%;
+}
+
+/* Skills */
+.skills {
+  padding-top: 50px;
+}
+
 .skills-container {
   margin: 0 50px 0 50px;
 }
@@ -94,10 +121,7 @@ img {
   padding: 40px 100px;
 }
 
-.download-icon {
-  width: 70px;
-}
-
+/* Project */
 .project {
   width: 50%;
   margin: 80px auto;
@@ -110,14 +134,20 @@ img {
   margin-right: 15px;
 }
 
-/* Style the footer */
+/* Download CV */
+.download-icon {
+  width: 70px;
+}
+
+/* Footer */
 .footer {
   padding: 10px;
   text-align: center;
 }
 
+/* Copyright */
 .copyright {
-  color: #EAF6F6;
+  color: #797979;
   font-size: 14px;
 }
 
@@ -125,25 +155,13 @@ img {
   font-size: 16px;
 }
 
+/* Social icon */
 .fa {
   font-size: 20px;
 }
 
 .material-icons {
   font-size: 20px;
-}
-
-.green {
-  padding: 20px;
-  background-color: #00c753;
-}
-
-.spotify-description{
-  position: relative;
-  margin-left: 15px;
-  font-size: 18px;
-  text-align: left;
-  color: #40514E;
 }
 
 @media screen and (max-width: 600px) {

@@ -20,7 +20,7 @@ if (res.np === true) {
     console.log(`[last.fm] Received song data: ${res.name} - ${res.artist}`);
     document.querySelector(
     "#spotify"
-    ).innerHTML = `<div class="green">
+    ).innerHTML = `<div class="spotify-alert">
             <div class="spotify-description">
             Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Spotify</b>
             </div>
