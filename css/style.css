@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #2e2e2e;
   color: #d6d6d6;
   font-size: 24px;
@@ -57,11 +57,11 @@ a {
 }
 
 a:hover {
-  color: #BB86FC;
+  color: #e4b265;
 }
 
 .title {
-  color: #a9b7c6;
+  color: #9876aa;
   font-size: 24px;
   padding-top: 50px;
 }
@@ -88,7 +88,7 @@ a:hover {
 
 /* Development */
 .description {
-  color: #797979;
+  color: #9ca2ac;
   font-size: 16px;
 }
 
@@ -147,7 +147,7 @@ img {
 
 /* Copyright */
 .copyright {
-  color: #797979;
+  color: #9ca2ac;
   font-size: 14px;
 }
 
@@ -158,7 +158,7 @@ img {
 /* Social icon */
 .fa {
   font-size: 20px;
-  color: #797979;
+  color: #9ca2ac;
 }
 
 .material-icons {
