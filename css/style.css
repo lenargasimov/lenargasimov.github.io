@@ -29,17 +29,19 @@ h1 {
 
 a {
   font-size: 18px;
-  color: #8deaff;
+  color: #d9d9d9;
   text-decoration: none;
 }
 
 a:hover {
+  color: #58a6ff;
   text-decoration: underline!important;
 }
 
 .title {
   font-size: 24px;
   padding-top: 50px;
+  color: #d9d9d9;
 }
 
 .language {
@@ -56,10 +58,6 @@ a:hover {
   color: #B05279;
   text-align: center;
   padding-bottom: 50px;
-}
-
-.intro a {
-  font-size: 24px;
 }
 
 /* Development */
@@ -138,6 +136,11 @@ img {
 
 .material-icons {
   font-size: 20px;
+}
+
+.footer-img {
+  width: 125px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
