@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
   background-color: #2e2e2e;
-  color: #d6d6d6;
+  color: #9ca2ac;
   font-size: 24px;
   text-align: center;
 }
@@ -21,29 +21,6 @@ body {
   color: #40514E;
 }
 
-/* Navigation
-.topnav {
-  overflow: hidden;
-  padding: 15px 0 100px 15px;
-}
-
-.topnav a {
-  color: #d6d6d6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: #0000EE;
-}
-
-.topnav .icon {
-  display: none;
-}
-*/
-
 /* Intro */
 h1 {
   color: #6C99BB;
@@ -52,16 +29,15 @@ h1 {
 
 a {
   font-size: 18px;
-  color: #5793c1;
+  color: #8deaff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e4b265;
+  text-decoration: underline!important;
 }
 
 .title {
-  color: #9876aa;
   font-size: 24px;
   padding-top: 50px;
 }
@@ -88,7 +64,6 @@ a:hover {
 
 /* Development */
 .description {
-  color: #9ca2ac;
   font-size: 16px;
 }
 
@@ -158,7 +133,7 @@ img {
 /* Social icon */
 .fa {
   font-size: 20px;
-  color: #9ca2ac;
+  color: #d9d9d9;
 }
 
 .material-icons {
@@ -191,7 +166,8 @@ img {
     padding: 5px 5px;
   }
   .fa {
-    font-size: 40px;
+    font-size: 25px;
+    color: #d9d9d9;
   }
 }
 
