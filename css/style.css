@@ -29,8 +29,8 @@ h1 {
 
 a {
   font-size: 18px;
-  color: #d9d9d9;
   text-decoration: none;
+  color: #9ca2ac;
 }
 
 a:hover {
@@ -41,7 +41,6 @@ a:hover {
 .title {
   font-size: 24px;
   padding-top: 50px;
-  color: #d9d9d9;
 }
 
 .language {
@@ -61,6 +60,12 @@ a:hover {
 }
 
 /* Development */
+.development {
+  width: 50%;
+  margin: 80px auto;
+  text-align: center;
+}
+
 .description {
   font-size: 16px;
 }
@@ -80,18 +85,10 @@ img {
 }
 
 /* Skills */
-.skills {
-  padding-top: 50px;
-}
-
-.skills-container {
-  margin: 0 50px 0 50px;
-}
-
 .skills-icon {
-  width: 80px;
-  display: inline;
-  padding: 40px 100px;
+  width: 60px;
+  display: inline-block;
+  padding: 0px 10px;
 }
 
 /* Project */
@@ -151,14 +148,14 @@ img {
   .intro {
     width: 90%;
   }
+  .development {
+    width: 90%;
+  }
   .project {
     width: 90%;
   }
   .intro-container {
     margin-top: 50px;
-  }
-  .skills-container {
-    margin: 0 15px;
   }
   .skills-icon {
     width: 20%;
