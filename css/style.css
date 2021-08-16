@@ -30,7 +30,7 @@ h1 {
 a {
   font-size: 18px;
   text-decoration: none;
-  color: #9ca2ac;
+  color: #ffffff;
 }
 
 a:hover {
@@ -123,13 +123,13 @@ img {
 
 .main-link {
   font-size: 16px;
-  color: #9ca2ac;
+  color: #ffffff;
 }
 
 /* Social icon */
 .fa {
   font-size: 25px;
-  color: #9ca2ac;
+  color: #ffffff;
 }
 
 .material-icons {
