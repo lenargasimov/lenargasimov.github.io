@@ -27,7 +27,7 @@ body {
 }
 
 .topnav a {
-  color: #8deaff;
+  color: #ff6567;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,7 +35,7 @@ body {
 }
 
 .topnav a:hover {
-  color: #B4D273;
+  color: #f0f0f0;
 }
 
 .topnav .icon {
@@ -51,17 +51,17 @@ h1 {
 a {
   font-size: 18px;
   text-decoration: none;
-  color: #8deaff;
+  color: #ff6567;
 }
 
 a:hover {
-  color: #B4D273;
+  color: #f0f0f0;
 }
 
 .title {
   font-size: 24px;
   padding-top: 50px;
-  color: #ff6567;
+  color: #01b1e6;
 }
 
 .language {
@@ -142,10 +142,11 @@ img {
 
 .main-link {
   font-size: 16px;
+  color: #ff6567;
 }
 
 .main-link:hover {
-  color: #B4D273;
+  color: #ffffff;
 }
 
 /* Social icon */
