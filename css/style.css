@@ -106,9 +106,9 @@ img {
 
 /* Skills */
 .skills-icon {
-  width: 60px;
+  width: 50px;
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 40px;
 }
 
 /* Project */
@@ -208,12 +208,20 @@ input[type=submit]:hover {
   }
   .skills-icon {
     width: 20%;
-    padding: 5px 5px;
+    padding: 5px 10px;
   }
   .container {
     border-radius: 5px;
     width: 95%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+.skills-icon {
+  width: 60px;
+  display: inline-block;
+  padding: 0px 50px;
   }
 }
 
