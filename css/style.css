@@ -69,7 +69,7 @@ a:hover {
 }
 
 .intro-container {
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .intro {
@@ -80,10 +80,15 @@ a:hover {
   padding-bottom: 50px;
 }
 
+.intro-img {
+  width: 175px;
+  border-radius: 50%;
+}
+
 /* Development */
 .development {
   width: 50%;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .description {
@@ -98,11 +103,14 @@ a:hover {
 img {
   display: block;
   margin: 0 auto;
-  padding: 20px 0 20px 0;
 }
 
 .hackerman {
   width: 100%;
+}
+
+.skills {
+  margin-top: 30px;
 }
 
 /* Skills */
@@ -115,7 +123,7 @@ img {
 /* Project */
 .project {
   width: 50%;
-  margin: 80px auto;
+  margin: 50px auto;
   text-align: left;
 }
 
@@ -128,6 +136,7 @@ img {
 /* Download CV */
 .download-icon {
   width: 70px;
+  padding-top: 20px;
 }
 
 /* Send mail form */
@@ -205,26 +214,28 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-.footer-img {
-  width: 125px;
-  border-radius: 50%;
-}
-
 @media screen and (max-width: 600px) {
   img {
     width: 90%;
   }
   .intro {
     width: 90%;
+    font-size: 18px;
+  }
+  .intro-container {
+    margin-top: 0px;
+  }
+  .intro-img {
+    width: 125px;
+  }
+  h1 {
+    font-size: 34px;
   }
   .development {
     width: 90%;
   }
   .project {
     width: 90%;
-  }
-  .intro-container {
-    margin-top: 50px;
   }
   .skills-icon {
     width: 20%;
