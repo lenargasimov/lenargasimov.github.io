@@ -76,7 +76,7 @@ a:hover {
   width: 70%;
   margin: 0 auto;
   color: #B05279;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
 }
 
@@ -88,6 +88,7 @@ a:hover {
 
 .description {
   font-size: 16px;
+  text-align: left;
 }
 
 .description-link {
@@ -197,6 +198,11 @@ input[type=submit]:hover {
 
 .material-icons {
   font-size: 20px;
+}
+
+.description-footer {
+  font-size: 16px;
+  text-align: center;
 }
 
 .footer-img {
