@@ -1,24 +1,33 @@
 body {
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
-  background-color: #2e2e2e;
-  color: #9ca2ac;
-  font-size: 24px;
+  background-color: #111213;
+  color: #c5c3cc;
+  font-size: 28px;
   text-align: center;
 }
 
 /* Spotify */
+.spotify-logo {
+  position: relative;
+  width: 40px;
+  float: left;
+  padding: 20px auto;
+
+
+}
+
 .spotify-alert {
   padding: 20px;
-  background-color: #03DAC6;
+  background-color: #1DB954;
 }
 
 .spotify-description{
   position: relative;
   margin-left: 15px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
-  color: #40514E;
+  color: #ffffff;
 }
 
 .topnav {
@@ -27,15 +36,11 @@ body {
 }
 
 .topnav a {
-  color: #ff6567;
+  border-bottom: 1px solid rgba(236,28,36,.5);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: #f0f0f0;
+  font-size: 16px;
+  color: #f5f7f9;
 }
 
 .topnav .icon {
@@ -44,28 +49,31 @@ body {
 
 /* Intro */
 h1 {
-  color: #6C99BB;
+  color: #f5f7f9;
   font-size: 64px;
 }
 
 a {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
-  color: #ff6567;
+  border-bottom: 1px solid rgba(236,28,36,.5);
+  color: #ffffff;
 }
 
 a:hover {
   color: #f0f0f0;
+  background-color: #ec1c24;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: 600;
   padding-top: 50px;
-  color: #6b93c9;
+  color: #f5f7f9;
 }
 
 .language {
-  color: #B4D273;
+  color: #ec1c24;
 }
 
 .intro-container {
@@ -75,9 +83,10 @@ a:hover {
 .intro {
   width: 70%;
   margin: 0 auto;
-  color: #B05279;
+  color: #d7dde1;
   text-align: left;
   padding-bottom: 50px;
+  font-size: 24px;
 }
 
 .intro-img {
@@ -93,6 +102,7 @@ a:hover {
 
 .description {
   font-size: 16px;
+  line-height: 22px;
   text-align: left;
 }
 
@@ -143,17 +153,18 @@ img {
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #404143;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #111213;
+  color: #f5f7f9;
+  font-size: 14px;
 }
 
 input[type=submit] {
-  background-color: #4caf50;
-  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -161,13 +172,26 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #111213;
+}
+
+::placeholder {
+  color: #404143;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #404143;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #404143;
 }
 
 .btn {
-  background-color: #4caf50;
+  background-color: #111213;
+  border: 1px solid rgba(236,28,36,.5);
   border-radius: 4px;
-  border: none;
   color: white;
   padding: 12px 20px;
   text-align: center;
@@ -175,6 +199,12 @@ input[type=submit]:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.btn:hover {
+  background-color: #ec1c24;
 }
 
 .container {
@@ -192,11 +222,12 @@ input[type=submit]:hover {
 /* Copyright */
 .copyright {
   font-size: 14px;
+  color: #96969c;
 }
 
 .main-link {
   font-size: 16px;
-  color: #ff6567;
+  border-bottom: 1px solid rgba(236,28,36,.5);
 }
 
 /* Social icon */
@@ -207,6 +238,13 @@ input[type=submit]:hover {
 
 .material-icons {
   font-size: 20px;
+}
+
+.footer-title {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 50px;
+  color: #ec1c24;
 }
 
 .description-footer {
