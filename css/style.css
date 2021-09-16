@@ -9,12 +9,9 @@ body {
 
 /* Spotify */
 .spotify-logo {
-  position: relative;
-  width: 40px;
-  float: left;
-  padding: 20px auto;
-
-
+  width: 33px;
+  display: inline;
+  vertical-align: middle;
 }
 
 .spotify-alert {
@@ -90,7 +87,7 @@ a:hover {
 }
 
 .intro-img {
-  width: 175px;
+  width: 190px;
   border-radius: 50%;
 }
 
@@ -138,9 +135,9 @@ img {
 }
 
 .project-icon {
-  width: 100px;
+  width: 150px;
   float: left;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 /* Download CV */
@@ -250,6 +247,7 @@ input[type=submit]:hover {
 .description-footer {
   font-size: 16px;
   text-align: center;
+  margin: 20px auto;
 }
 
 @media screen and (max-width: 600px) {
