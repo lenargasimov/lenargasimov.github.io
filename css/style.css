@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Spotify */
 .spotify-logo {
   width: 33px;
@@ -135,6 +139,101 @@ h1 {
 .social-links a:hover {
   padding-left: 1px;
   opacity: 1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 240px;
+}
+
+/* Add a card effect for articles */
+.card {
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  font-size: 50px;
+  padding-bottom: 70px;
+}
+
+hr.hr {
+  border: 3px solid #33FFA9;
+  margin-bottom: 70px;
+}
+
+.about-description {
+  font-size: 24px;
+  color: #33FFA9;
+  line-height: 38px;
+}
+
+.skills-description {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.button-linkedin {
+  font-family: "Roboto Mono", Sans-serif;
+  background-color: #ffffff;
+  border: none;
+  color: #23272D;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-linkedin:hover {
+  background-color: #33FFA9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 24px;
+  line-height: 38px;:
+}
+
+ul li:before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  background-image: url('../image/circle.svg');
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
