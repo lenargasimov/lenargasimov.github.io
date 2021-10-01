@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP42LSHPTS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-RP42LSHPTS');
-  </script>
 
     <title>Lenar Gasimov</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,152 +14,45 @@
     <meta property="profile:first_name" content="Lenar">
     <meta property="profile:last_name" content="Gasimov">
     <meta name="theme-color" content="#131313">
-
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+
+</style>
 </head>
 <body>
 <!-- Spotify alert -->
 <div id="spotify"></div>
 
-<!--Navigation-->
 <div class="topnav" id="myTopnav">
-    <a href="https://lenar-blog.herokuapp.com/" target="_blank">Blog</a>
-    <a href="https://drive.google.com/file/d/1hp7NGq752CXTeR8NLyAt7vbe-8LeFcBl/view?usp=sharing" target="_blank">CV</a>
+    <div class="topnav-left">
+      <a href="#"> < / Lenar Gasimov</a>
+    </div>
+    <button class="btn success">brief me/></button>
+    <a href="#contact">Contacts</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#home" class="active">Home</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+      <i class="fa fa-bars"></i>
     </a>
 </div>
 
-<!--Intro-->
-<div class="intro-container">
-  <img class="intro-img" src="https://github.com/lenargasimov.png">
-  <h1>Hello there</h1>
-  <p class="intro">I'm Lenar. I'm a <span class="language">Python Developer</span> based in Naberezhnye Chelny.
-    I specialize in full stack web development and writing readable code.</p>
-</div>
-
-<!--Development-->
-<div class="title">Development</div>
-    <div class="development">
-        <img class="hackerman" src="https://media.giphy.com/media/kPVTbiTORIopy/giphy.gif" alt="Hackerman">
-        <p class="description">I am looking for new opportunities to improve and increase my skills in software and web development.
-        New challenges don't bother me, but rather inspire, as they give me the opportunity to grow up,
-        and the habit of not give up helps me in this.
-        Creating and building projects that solve a problem is a high priority for me. Completed
-          <a href="https://github.com/lenargasimov/100-days-of-python" target="_blank"><span class="description-link">#100DaysOfCode</span></a></p>
-
-      <div class="skills">
-        <!--    Skills icon-->
-        <img class="skills-icon" src="image/python.png" alt="Python">
-        <img class="skills-icon" src="image/django.png" alt="Django">
-        <img class="skills-icon" src="image/flask.png" alt="Flask" >
-        <img class="skills-icon" src="image/postgre.png" alt="PostgreSQL">
-        <img class="skills-icon" src="image/docker.png" alt="Docker">
-        <img class="skills-icon" src="image/git.png" alt="Git">
-        <img class="skills-icon" src="image/html.png" alt="HTML">
-        <img class="skills-icon" src="image/css.png" alt="CSS">
-        <img class="skills-icon" src="image/bootstrap.png" alt="Bootstrap">
-      </div>
-    </div>
-
-<!--Projects-->
-<div class="title">Projects</div>
-      <!--  My projects-->
-    <div class="project">
-       <p class="description">Here you can see some of my works. Feel free to check my
-           <a href="https://github.com/lenargasimov" target="_blank"><span class="description-link">GitHub</span></a> repo for code.
-            You can also browse all the projects I've found interesting by looking at what I've starred.</p>
-
-    <!--  Blog-->
-      <img src="image/blog.png" class="project-icon" alt="blog">
-      <a href="https://github.com/lenargasimov/blog" target="_blank">Blog Project on Python</a>
-      <p class="description">RESTful Blog with Editing. Admin can create new blog posts, edit posts and delete posts.
-        All inside the blog website.
-        Anyone can sign up and comment on the blog posts.</p>
-    </div>
-
-    <!--DJ page-->
-    <div class="project">
-      <img src="image/dj.png" class="project-icon" alt="dj">
-      <a href="https://github.com/djelectrostatic/booking" target="_blank">Dj booking</a>
-      <p class="description">Simple booking page. Your website should align with your goals - as a performer and musician,
-          it needs to put all aspects of your career into focus. A website should also be a central hub to organize your business,
-          helping you book events, whether in-person or virtual.</p>
-    </div>
-
-    <!--Telegram bot-->
-    <div class="project">
-      <img src="image/bot.png" class="project-icon" alt="bot">
-      <a href="https://github.com/lenargasimov/lenar-bot" target="_blank">Lenar's Telegram bot</a>
-      <p class="description">Wrote a bot from which you can find out the weather in any city,
-          the exchange rate of foreign currencies.
-        If you write "Guido" in response, the bot will send a sticker that saying "Python rules".</p>
-    </div>
-
-    <!--SMTP birthday wisher -->
-    <div class="project">
-      <img src="image/birthday.png" class="project-icon" alt="birthday-wisher">
-      <a href="https://github.com/lenargasimov/birthday-wisher" target="_blank">Automated email Birthday Wisher</a>
-      <p class="description">Python's SMTP library, Date time library and built an Automated Birthday Wisher that runs
-          every single day with the use of PythonAnywhere, with a list of birthday dates.
-      </p>
-    </div>
-
-    <!--Spotify Time Machine-->
-    <div class="project">
-      <img src="image/spotify.png" class="project-icon" alt="gramophone">
-      <a href="https://github.com/lenargasimov/spotify-time-machine" target="_blank">Spotify Time Machine</a>
-      <p class="description">Find songs on the top 100 Billboard chart on any date, search those songs on Spotify,
-          and create a personalize playlist.
-      </p>
-    </div>
-
-<!--&lt;!&ndash;Education&ndash;&gt;-->
-<!--<div class="title">Education</div>-->
-<!--      &lt;!&ndash;  My projects&ndash;&gt;-->
-<!--    <div class="project">-->
-<!--      <a href="https://www.udemy.com/course/100-days-of-code/" target="_blank">App Brewery, Udemy.</a>-->
-<!--      <p class="description">100 Days of Code - The Complete Python Pro Bootcamp for 2021. May 2021.</p>-->
-<!--    </div>-->
-<!--    <div class="project">-->
-<!--      <a href="https://vk.com/it.academy" target="_blank">IT Academy, Naberezhnye Chelny.</a>-->
-<!--      <p class="description">Python programming. April 2020.</p>-->
-<!--    </div>-->
-
-<!--&lt;!&ndash; CV&ndash;&gt;-->
-<!--<div class="title">Download CV</div>-->
-<!--<a href="https://drive.google.com/file/d/1hp7NGq752CXTeR8NLyAt7vbe-8LeFcBl/view?usp=sharing" target="_blank">-->
-<!--  <img src="image/download.svg" class="download-icon" alt=""></a>-->
-<!--</div>-->
-
-<!--Footer-->
-<div class="footer">
-    <div class="footer-title">Get In Touch</div>
-    <p class="description-footer">Find me on
-    <a href="http://www.twitter.com/lenargasimov" class="fa fa-twitter" target="_blank"></a>
-    <a href="http://www.linkedin.com/in/lenargasimov" class="fa fa-linkedin" target="_blank"></a>
-    <a href="https://github.com/lenargasimov" class="fa fa-github" target="_blank"></a>
-        or just say Hello at <a class="main-link" href="mailto:lenargasimov@yahoo.com">lenargasimov@yahoo.com</a></p>
-
-    <!-- Contact form-->
-    <div class="container">
-        <form action="https://formspree.io/f/xdoyagbr" method="POST">
-          <input type="text" id="email" name="_replyto" placeholder="Email">
-          <input type="text" id="subject" name="subject" placeholder="Subject">
-          <textarea id="message" name="message" placeholder="Enter your message" style="height:200px"></textarea>
-          <button class="btn">Send</button>
-        </form>
-    <br>
-
-<!--    Copyright-->
-    <p class="copyright">Made with <i class="material-icons">favorite</i>
-        and <i class="material-icons">coffee</i> by Lenar Gasimov.</p>
-    <p class="copyright">&copy; Copyright, 2021.<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script></p>
+<div class="intro">
+  <img class="profile-pic" src="./image/profile.jpg" alt="">
+  <h1>I'm a Python Developer based in Naberezhnye Chelny</h1>
+  <p class="intro-description">I specialize in full stack web development and writing readable code.</p>
+  <button class="button">Contact us/></button>
+  <div class="social-links">
+      <a class="" href="">GitHub</a>
+      <a href="">Twitter</a>
+      <a href="">LinkedIn</a>
+  </div>
 </div>
 
 <script src="js/index.js"></script>
