@@ -234,10 +234,15 @@ ul li:before {
     width: 100%;
     padding: 0;
   }
+
+    .profile-pic {
+      width: 90%;
+      margin: 0 35px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
