@@ -232,6 +232,8 @@ ul li:before {
 .footer {
   background-color: #33FFA9;
   padding: 200px 0px 200px 0px;
+  position: relative;
+
 }
 
 .footer-description {
@@ -242,6 +244,7 @@ ul li:before {
   letter-spacing: -1px;
   padding: 15px;
   width: 60%;
+
 }
 
 .social-links-footer {
@@ -269,7 +272,14 @@ ul li:before {
   line-height: 1.14em;
   letter-spacing: -0.28px;
   color: #23272D;
-  padding: 0 200px 0 0;
+  padding: 0 190px 0 0;
+}
+
+.bracket {
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  right: 70px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -348,6 +358,11 @@ ul li:before {
     width: 100%;
     font-size: 40px;
     font-weight: 700;
+  }
+  .bracket {
+    width: 200px;
+    margin: 70px;
+    position: static;
   }
 }
 
