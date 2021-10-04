@@ -59,7 +59,6 @@ body {
 
 .topnav-left {
   float: left;
-  padding-left: 10px;
 }
 
 .btn {
@@ -287,12 +286,12 @@ ul li:before {
   .btn {
     display: none;
   }
+  .topnav-left {
+    display: none;
+  }
   .topnav {
     overflow: hidden;
     padding: 1px 10px;
-  }
-  .topnav-left {
-    display: none;
   }
   .social-links {
     padding-top: 20px;
@@ -307,7 +306,7 @@ ul li:before {
     margin-bottom: 1px;
   }
   .footer {
-    padding: 30px 15px 30px 15px;
+    padding: 30px 15px 30px 1px;
   }
   .social-links-footer {
     padding-top: 1px;
