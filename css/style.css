@@ -113,7 +113,7 @@ h1 {
   border-radius: 50%;
   width: 690px;
   float: right;
-  margin: 0 15px auto;
+  margin: 90px 15px auto;
 }
 
 .button {
@@ -149,14 +149,13 @@ h1 {
 }
 
 .social-links a:hover {
-  padding-left: 1px;
   opacity: 1;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .flex-item-left {
@@ -175,7 +174,7 @@ h2 {
 
 hr.hr {
   border: 3px solid #33FFA9;
-  margin-bottom: 70px;
+  margin: 90px 0 70px 0;
 }
 
 .about-description {
@@ -232,7 +231,7 @@ ul li:before {
 /* Style the footer */
 .footer {
   background-color: #33FFA9;
-  padding: 218px 0px 232px 0px;
+  padding: 200px 0px 200px 0px;
 }
 
 .footer-description {
@@ -260,7 +259,8 @@ ul li:before {
 }
 
 .social-links-footer a:hover {
-
+  color: #ffffff;
+  opacity: 1;
 }
 
 .copyright {
@@ -270,7 +270,6 @@ ul li:before {
   letter-spacing: -0.28px;
   color: #23272D;
   padding: 0 200px 0 0;
-
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -288,8 +287,7 @@ ul li:before {
     width: 90%;
     padding: 1px;
     margin-bottom: 50px;
-      position: relative;
-
+    position: relative;
   }
   .btn {
     display: none;
@@ -327,6 +325,7 @@ ul li:before {
   .copyright {
     text-align: center;
     float: none;
+    padding: 0;
   }
   h1 {
     font-size: 32px;
@@ -362,9 +361,6 @@ ul li:before {
   }
   .flex-container-intro {
     flex-direction: column-reverse;
-  }
-  .intro {
-    margin: 0;
   }
 }
 @media screen and (max-width: 600px) {
