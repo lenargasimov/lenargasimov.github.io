@@ -234,11 +234,20 @@ ul li:before {
     width: 100%;
     padding: 0;
   }
-
-    .profile-pic {
-      width: 90%;
-      margin: 0 35px;
-    }
+  .profile-pic {
+    width: 90%;
+    margin: 0 35px;
+  }
+  .btn {
+    display: none;
+  }
+  .topnav-left {
+    display: none;
+  }
+  .social-links a {
+    display: block;
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
