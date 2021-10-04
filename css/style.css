@@ -88,6 +88,7 @@ body {
 
 h1 {
   font-size: 80px;
+  margin: 0 auto;
 }
 
 .intro-description {
@@ -297,6 +298,10 @@ ul li:before {
     display: block;
     padding-bottom: 30px;
     font-size: 22px;
+  }
+  .copyright {
+    text-align: center;
+    float: none;
   }
 }
 
