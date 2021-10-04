@@ -80,6 +80,19 @@ body {
   background-color: #33ffa9;
 }
 
+.flex-container-intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left-intro {
+  flex: 50%;
+}
+
+.flex-item-right-intro {
+  flex: 50%;
+}
+
 .intro {
   margin: 90px 0 250px 0;
   padding-left: 16px;
@@ -93,14 +106,14 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   line-height: 1.58em;
-  width: 40%;
+  width: 90%;
 }
 
 .profile-pic {
   border-radius: 50%;
   width: 690px;
   float: right;
-  margin: 0 15px 0 0;
+  margin: 0 15px auto;
 }
 
 .button {
@@ -140,36 +153,24 @@ h1 {
   opacity: 1;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 25%;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 75%;
+.flex-item-left {
+  flex: 25%;
+}
+
+.flex-item-right {
   padding-left: 240px;
-}
-
-/* Add a card effect for articles */
-.card {
-   padding: 20px;
-   margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex: 75%;
 }
 
 h2 {
   font-size: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 hr.hr {
@@ -201,6 +202,7 @@ hr.hr {
   letter-spacing: -0.2px;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 70px;
 }
 
 .button-linkedin:hover {
@@ -267,6 +269,8 @@ ul li:before {
   line-height: 1.14em;
   letter-spacing: -0.28px;
   color: #23272D;
+  padding: 0 200px 0 0;
+
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -274,14 +278,18 @@ ul li:before {
   .intro-description {
     width: 100%;
   }
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
+  .flex-item-left {
+    padding: 0px;
+  }
+  .flex-item-right {
+    padding: 0px;
   }
   .profile-pic {
     width: 90%;
     padding: 1px;
     margin-bottom: 50px;
+      position: relative;
+
   }
   .btn {
     display: none;
@@ -344,6 +352,21 @@ ul li:before {
   }
 }
 
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 1366px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .flex-item-right-intro, .flex-item-left-intro {
+    flex: 100%;
+  }
+  .flex-container-intro {
+    flex-direction: column-reverse;
+  }
+  .intro {
+    margin: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
