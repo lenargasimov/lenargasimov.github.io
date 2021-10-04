@@ -246,7 +246,11 @@ ul li:before {
   }
   .social-links a {
     display: block;
-    padding: 10px;
+    padding-bottom: 30px;
+    font-size: 22px;
+  }
+  .intro {
+    width: 90%;
   }
 }
 
