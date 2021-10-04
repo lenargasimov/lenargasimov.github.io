@@ -88,7 +88,6 @@ body {
 
 h1 {
   font-size: 80px;
-  margin: 0 auto;
 }
 
 .intro-description {
@@ -270,29 +269,48 @@ ul li:before {
   letter-spacing: -0.28px;
   color: #23272D;
 }
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
+  .intro-description {
+    width: 100%;
+  }
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
   }
   .profile-pic {
     width: 90%;
-    margin: 0 35px;
+    padding: 1px;
+    margin-bottom: 50px;
   }
   .btn {
     display: none;
   }
+  .topnav {
+    overflow: hidden;
+    padding: 1px 10px;
+  }
   .topnav-left {
     display: none;
   }
+  .social-links {
+    padding-top: 20px;
+  }
   .social-links a {
     display: block;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 22px;
   }
   .intro {
     width: 90%;
+    margin-bottom: 1px;
+  }
+  .footer {
+    padding: 30px 15px 30px 15px;
+  }
+  .social-links-footer {
+    padding-top: 1px;
   }
   .social-links-footer a {
     display: block;
@@ -302,6 +320,28 @@ ul li:before {
   .copyright {
     text-align: center;
     float: none;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  h2 {
+    padding-bottom: 1px;
+  }
+  hr.hr {
+    margin-bottom: 1px;
+  }
+  ul {
+    padding-left: 1px;
+  }
+  li {
+    font-size: 24px;
+  }
+  .footer-description {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
   }
 }
 
