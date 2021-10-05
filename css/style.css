@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  .mySlides {display: none;}
-img {vertical-align: middle;}
 }
 
 /* Spotify */
@@ -29,6 +27,11 @@ body {
   font-family: "Roboto Mono", Sans-serif;
   background-color: #22272d;
   color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #23272D;
 }
 
 /* Navigation */
@@ -241,7 +244,7 @@ ul li:before {
   display: flex;
   flex-wrap: wrap;
   padding: 0 15px;
-  margin: 150px 0 250px 0;
+  margin: 150px 0 0 0;
 }
 
 .flex-item-left-works {
@@ -264,7 +267,7 @@ ul li:before {
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
-  margin: 25px 0;
+  margin: 100px 0 200px 0;
   cursor: pointer;
   line-height: 72px;
   letter-spacing: -0.4px;
@@ -274,12 +277,146 @@ ul li:before {
   background-color: #ffffff;
 }
 
+.carousel {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+.slider {
+  max-width: 1360px;
+  display: flex;
+}
+
+.slider .card{
+  flex: 1;
+  margin: 0 20px;
+}
+
+.slider .card .img{
+  width: 100%;
+}
+
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.card .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card .content .btn-more button-more:hover{
+  transform: scale(0.9);
+}
+
+.project-name {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4em;
+  letter-spacing: -0.64px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #22272d;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+input[type=submit] {
+  background-color: #33FFA9;
+  color: #243238;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 72px;
+  letter-spacing: -0.4px;
+  padding: 0px 40px 0px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+}
+
+::placeholder {
+  color: #919396;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #919396;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #919396;
+}
+
+/* Style the container/contact section */
+.container-contact {
+  border-radius: 5px;
+  background-color: #22272d;
+  padding: 10px;
+  padding-bottom: 200px;
+}
+
+/* Create two columns that float next to eachother */
+.column-contact {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-description {
+  color: #919396;
+  font-size: 24px;
+  line-height: 1.58em;
+  font-family: "Roboto", Sans-serif;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-contact, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 /* Footer */
 .footer {
   background-color: #33FFA9;
   padding: 200px 0px 200px 0px;
   position: relative;
-
 }
 
 .footer-description {

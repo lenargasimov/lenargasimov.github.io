@@ -15,6 +15,9 @@
     <meta property="profile:last_name" content="Gasimov">
     <meta name="theme-color" content="#131313">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +37,7 @@
     <a href="#contact">Contacts</a>
     <a href="#work">Work</a>
     <a href="#about">About</a>
-    <a href="#home" class="active">Home</a>
+    <a href="index.html" class="active">Home</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -48,9 +51,9 @@
       <p class="intro-description">I specialize in full stack web development and writing readable code.</p>
       <button class="button">Contact us/></button>
       <div class="social-links">
-          <a href="">GitHub</a>
-          <a href="">Twitter</a>
-          <a href="">LinkedIn</a>
+          <a href="https://github.com/lenargasimov" target="_blank">GitHub</a>
+          <a href="https://twitter.com/lenargasimov" target="_blank">Twitter</a>
+          <a href="https://www.linkedin.com/in/lenargasimov" target="_blank">LinkedIn</a>
       </div>
     </div>
   </div>
@@ -60,7 +63,7 @@
 </div>
 
 <!--About me-->
-<div class="flex-container">
+<div id="about" class="flex-container">
   <div class="flex-item-left">
     <h2>About me</h2>
     <p class="about-description">I have a commercial experience providing front-end development, producing high quality responsive websites
@@ -79,19 +82,96 @@
           <li>Integrate your website into an easy to use content management system</li>
       </ul>
       <p class="skills-description">Creating and building projects that solve a problem is a high priority for me. Completed #100DaysOfCode</p>
-      <button class="button-linkedin">Linkedin profile/></button>
+      <button class="button-linkedin"><a href="https://www.linkedin.com/in/lenargasimov" target="_blank">Linkedin profile/></a></button>
   </div>
 </div>
 
 <!--Recent works-->
-<div class="flex-container-works">
+<div id="work" class="flex-container-works">
   <div class="flex-item-left-works">
     <h2>Recent works</h2>
   </div>
 
   <div class="flex-item-right-works">
       <hr class="hr">
-      <button class="button-projects">See all projects/></button>
+  </div>
+</div>
+
+<!--Carousel-->
+<div class="carousel">
+  <div class="slider owl-carousel">
+     <div class="card">
+        <div class="img">
+           <img src="./image/blog.jpg" alt="">
+        </div>
+         <p class="project-name">Blog</p>
+        <a href="">Go to github</a>
+     </div>
+     <div class="card">
+        <div class="img">
+           <img src="./image/bot.jpg" alt="">
+        </div>
+         <p class="project-name">Bot</p>
+        <a href="">Go to github</a>
+     </div>
+      <div class="card">
+        <div class="img">
+           <img src="./image/spotify.jpg" alt="">
+        </div>
+          <p class="project-name">Spotify Time Machine</p>
+        <a href="">Go to github</a>
+     </div>
+           <div class="card">
+        <div class="img">
+           <img src="./image/birthday.jpg" alt="">
+        </div>
+           <p class="project-name">Automated Birthday Wisher</p>
+        <a href="">Go to github</a>
+     </div>
+      <div class="card">
+        <div class="img">
+           <img src="./image/amazon.jpg" alt="">
+        </div>
+          <p class="project-name">Amazon Price Tracker</p>
+        <a href="">Go to github</a>
+     </div>
+      <div class="card">
+        <div class="img">
+           <img src="./image/linkedin.jpg" alt="">
+        </div>
+          <p class="project-name">Automating Job Applications on LinkedIn</p>
+        <a href="">Go to github</a>
+     </div>
+           <div class="card">
+        <div class="img">
+           <img src="./image/speedtest.jpg" alt="">
+        </div>
+           <p class="project-name">Internet Speed Twitter Complaint Bot</p>
+        <a href="">Go to github</a>
+     </div>
+  </div>
+    <button class="button-projects"><a href="https://github.com/lenargasimov?tab=repositories">See all projects/></a></button>
+</div>
+
+<!-- Contact form-->
+<div class="container-contact">
+  <div style="text-align:center">
+    <h2>Get in touch with me</h2>
+  </div>
+  <div class="row">
+    <div class="column-contact">
+        <p class="contact-description">My clients have found that launching with a well considered and well developed front-end has saved them time and money.</p>
+        <p class="contact-description">Email:</p>        <a href="mailto:lenargasimov@yahoo.com">lenargasimov@yahoo.com</a>
+
+    </div>
+    <div class="column-contact">
+      <form action="https://formspree.io/f/xdoyagbr" method="POST">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="email" name="_replyto" placeholder="Your email">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Send message/>">
+      </form>
+    </div>
   </div>
 </div>
 
@@ -99,9 +179,9 @@
 <div class="footer">
   <p class="footer-description">I’m available for freelance work, you can reach me by</p>
   <div class="social-links-footer">
-    <a href="" target="_blank">GitHub</a>
-    <a href="" target="_blank">Twitter</a>
-    <a href="" target="_blank">LinkedIn</a>
+    <a href="https://github.com/lenargasimov" target="_blank">GitHub</a>
+    <a href="https://twitter.com/lenargasimov" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/in/lenargasimov/" target="_blank">LinkedIn</a>
     <a href="mailto:lenargasimov@yahoo.com">Email</a>
     <img class="bracket" src="./image/bracket.svg" alt="Bracket">
 
