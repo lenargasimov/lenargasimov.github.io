@@ -332,7 +332,14 @@ ul li:before {
   letter-spacing: -0.64px;
 }
 
+/* Contact */
 /* Style inputs */
+.contact-title {
+  text-align: left;
+  padding-left: 20px;
+  width: 50%;
+}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 30px;
@@ -353,6 +360,7 @@ input[type=submit] {
   line-height: 72px;
   letter-spacing: -0.4px;
   padding: 0px 40px 0px 40px;
+  margin-top: 70px;
   border: none;
   cursor: pointer;
 }
@@ -404,6 +412,10 @@ input[type=submit]:hover {
   font-family: "Roboto", Sans-serif;
 }
 
+.contact-description a {
+  color: #ffffff;
+  display: block;
+}
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column-contact, input[type=submit] {
