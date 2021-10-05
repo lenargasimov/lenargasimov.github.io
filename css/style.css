@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  .mySlides {display: none;}
+img {vertical-align: middle;}
 }
 
 /* Spotify */
@@ -29,6 +31,7 @@ body {
   color: #ffffff;
 }
 
+/* Navigation */
 .topnav {
   overflow: hidden;
   padding: 50px 10px;
@@ -80,6 +83,7 @@ body {
   background-color: #33ffa9;
 }
 
+/* Intro */
 .flex-container-intro {
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +122,7 @@ h1 {
   margin: 90px 15px auto;
 }
 
+/* Contact us */
 .button {
   background-color: #33FFA9;
   border: none;
@@ -154,6 +159,7 @@ h1 {
   opacity: 1;
 }
 
+/* About me */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +236,45 @@ ul li:before {
   margin-right: 20px;
 }
 
-/* Style the footer */
+/* Projects */
+.flex-container-works {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+  margin: 150px 0 250px 0;
+}
+
+.flex-item-left-works {
+  flex: 25%;
+}
+
+.flex-item-right-works {
+  padding-left: 240px;
+  flex: 75%;
+}
+
+.button-projects {
+  font-family: "Roboto Mono", Sans-serif;
+  background-color: #33FFA9;
+  border: none;
+  color: #23272D;
+  padding: 0px 40px 0px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px 0;
+  cursor: pointer;
+  line-height: 72px;
+  letter-spacing: -0.4px;
+}
+
+.button-projects:hover {
+  background-color: #ffffff;
+}
+
+/* Footer */
 .footer {
   background-color: #33FFA9;
   padding: 200px 0px 200px 0px;
@@ -276,6 +320,7 @@ ul li:before {
   padding: 0 190px 0 0;
 }
 
+/* Bracket svg img */
 .bracket {
   width: 500px;
   position: absolute;
