@@ -100,6 +100,8 @@ body {
 
 h1 {
   font-size: 80px;
+  line-height: 1.15em;
+  letter-spacing: -1.5px;
 }
 
 .intro-description {
@@ -244,13 +246,9 @@ ul li:before {
   letter-spacing: -1px;
   padding: 15px;
   width: 60%;
-
 }
 
 .social-links-footer {
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: -0.4px;
   padding-top: 30px;
 }
 
@@ -259,6 +257,9 @@ ul li:before {
   text-decoration: none;
   padding-right: 30px;
   padding-left: 16px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.4px;
 }
 
 .social-links-footer a:hover {
@@ -296,7 +297,7 @@ ul li:before {
   .profile-pic {
     width: 90%;
     padding: 1px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     position: relative;
   }
   .btn {
@@ -330,7 +331,7 @@ ul li:before {
   .social-links-footer a {
     display: block;
     padding-bottom: 30px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .copyright {
     text-align: center;
@@ -356,13 +357,11 @@ ul li:before {
   }
   .footer-description {
     width: 100%;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
   }
   .bracket {
-    width: 200px;
-    margin: 70px;
-    position: static;
+    display: none;
   }
 }
 
