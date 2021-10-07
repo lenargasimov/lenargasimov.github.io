@@ -339,7 +339,7 @@ input[type=text], select, textarea {
   color: #ffffff;
 }
 
-input[type=submit] {
+.btn-contact {
   background-color: #33FFA9;
   color: #243238;
   font-size: 20px;
@@ -352,7 +352,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.btn-contact:hover {
   background-color: #ffffff;
 }
 
