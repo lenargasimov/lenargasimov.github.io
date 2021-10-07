@@ -271,6 +271,7 @@ ul li:before {
   cursor: pointer;
   line-height: 72px;
   letter-spacing: -0.4px;
+  margin-left: 40%;
 }
 
 .button-projects:hover {
@@ -458,6 +459,12 @@ input[type=text], select, textarea {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
+  .flex-item-left-works {
+    padding: 0px;
+  }
+  .flex-item-right-works {
+    padding: 0px;
+  }
   .intro-description {
     width: 100%;
   }
@@ -517,10 +524,10 @@ input[type=text], select, textarea {
     width: 100%;
   }
   h2 {
-    padding-bottom: 1px;
+    padding-bottom: 0px;
   }
   hr.hr {
-    margin-bottom: 1px;
+    margin-bottom: 0px;
   }
   ul {
     padding-left: 1px;
@@ -535,6 +542,9 @@ input[type=text], select, textarea {
   }
   .bracket {
     display: none;
+  }
+  .button-projects {
+    margin-left: 0;
   }
 }
 
@@ -556,6 +566,9 @@ input[type=text], select, textarea {
   }
   .flex-container-intro {
     flex-direction: column-reverse;
+  }
+  .flex-item-left-works, .flex-item-right-works {
+    flex: 100%;
   }
 }
 @media screen and (max-width: 600px) {
