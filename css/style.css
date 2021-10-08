@@ -179,13 +179,13 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 40px;
 }
 
 hr.hr {
   border: 3px solid #33FFA9;
-  margin: 90px 0 70px 0;
+  margin: 70px 0 70px 0;
 }
 
 .about-description {
@@ -296,7 +296,6 @@ ul li:before {
   font-size: 90px;
   font-weight: 600;
   border-radius: 10px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
 
 .owl-dots{
@@ -545,6 +544,7 @@ input[type=text], select, textarea {
   }
   .button-projects {
     margin-left: 0;
+    width: 100%;
   }
   .contact-title {
     width: 100%;
