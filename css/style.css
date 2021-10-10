@@ -292,7 +292,7 @@ ul li:before {
   text-align: left;
   margin: 20px 0;
   line-height: 250px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   border-radius: 10px;
   line-height: 1.4em;
@@ -301,6 +301,12 @@ ul li:before {
 
 .carousel .card a {
   color: #ffffff;
+}
+
+.github {
+  display: block;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .carousel .card a:hover {
