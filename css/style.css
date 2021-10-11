@@ -65,25 +65,33 @@ a {
 
 .topnav-left {
   float: left;
+  padding-left: 10;
 }
 
 .btn {
   float: right;
+  background-color: #ffffff;
   border: none;
-  color: #23272D;
-  padding: 14px 28px;
-  margin: 0 5px 0 70px;
-  font-size: 16px;
+  margin: 0 5px 0 100px;
   cursor: pointer;
+}
+
+.btn a[href="cv"] {
+  font-family: "Roboto Mono", Sans-serif;
+  color: #23272D;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   font-weight: bold;
 }
 
-.success {
-  background-color: #ffffff;
+.btn:hover {
+  background-color: #33ffa9;
 }
 
-.success:hover {
-  background-color: #33ffa9;
+.span {
+  color: #33ffa9;
 }
 
 /* Intro */
@@ -300,6 +308,10 @@ ul li:before {
 }
 
 .carousel .card a {
+  color: #33ffa9;
+}
+
+.carousel .card a:hover {
   color: #ffffff;
 }
 
@@ -307,10 +319,6 @@ ul li:before {
   display: block;
   font-size: 18px;
   margin-top: 20px;
-}
-
-.carousel .card a:hover {
-  color: #33ffa9;
 }
 
 .owl-dots{
@@ -498,9 +506,9 @@ input[type=text], select, textarea {
     display: none;
   }
   .topnav-left {
-    display: none;
+    padding: 0;
   }
-  .topnav {
+  .topnav a {
     overflow: hidden;
     padding: 1px 10px;
   }
@@ -590,7 +598,7 @@ input[type=text], select, textarea {
   }
 }
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -607,6 +615,6 @@ input[type=text], select, textarea {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
