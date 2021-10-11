@@ -510,7 +510,7 @@ input[type=text], select, textarea {
   }
   .topnav a {
     overflow: hidden;
-    padding: 1px 10px;
+    padding: 10px 10px;
   }
   .social-links {
     padding-top: 20px;
