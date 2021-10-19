@@ -24,7 +24,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto Mono", Sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #22272d;
   color: #ffffff;
 }
@@ -77,7 +77,7 @@ a {
 }
 
 .btn a[href="cv"] {
-  font-family: "Roboto Mono", Sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   color: #23272D;
   text-align: center;
   text-decoration: none;
@@ -120,7 +120,7 @@ h1 {
 }
 
 .intro-description {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   line-height: 1.58em;
   width: 90%;
@@ -208,7 +208,7 @@ hr.hr {
 }
 
 .button-linkedin {
-  font-family: "Roboto Mono", Sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #ffffff;
   border: none;
   color: #23272D;
@@ -265,7 +265,7 @@ ul li:before {
 }
 
 .button-projects {
-  font-family: "Roboto Mono", Sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   background-color: #33FFA9;
   border: none;
   color: #23272D;
@@ -418,7 +418,7 @@ input[type=text], select, textarea {
   color: #919396;
   font-size: 24px;
   line-height: 1.58em;
-  font-family: "Roboto", Sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-description a {
