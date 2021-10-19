@@ -23,6 +23,8 @@ Check out the website at [lenargasimov.dev](https://lenargasimov.dev).
 - CSS 3
 - JS
 
+---
+
 ## Author
 
 <img style="border-radius: 50%" src="https://github.com/lenargasimov.png" width="100px;" alt=""/>
