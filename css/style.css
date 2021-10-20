@@ -72,7 +72,7 @@ a {
   float: right;
   background-color: #ffffff;
   border: none;
-  margin: 0 5px 0 100px;
+  margin: 0 15px 0 50px;
   cursor: pointer;
 }
 
@@ -405,6 +405,10 @@ input[type=text], select, textarea {
   width: 50%;
   margin-top: 6px;
   padding: 10px;
+}
+
+.column-contact a:hover {
+  color: #33FFA9;
 }
 
 /* Clear floats after the columns */
