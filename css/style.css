@@ -475,14 +475,6 @@ input[type=text], select, textarea {
   padding: 0 190px 0 0;
 }
 
-/* Bracket svg img */
-.bracket {
-  width: 500px;
-  position: absolute;
-  top: 150px;
-  right: 70px;
-}
-
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .flex-item-left-works {
@@ -565,9 +557,6 @@ input[type=text], select, textarea {
     width: 100%;
     font-size: 36px;
     font-weight: 700;
-  }
-  .bracket {
-    display: none;
   }
   .button-projects {
     margin-left: 0;
