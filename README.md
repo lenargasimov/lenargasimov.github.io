@@ -36,4 +36,4 @@ Check out the website at [lenargasimov.dev](https://lenargasimov.dev).
 [![Website](https://img.shields.io/badge/Website/Blog-black?&style=for-the-badge&logo=website&logoColor=white)](https://lenargasimov.dev)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lenargasimov)
 [![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lenargasimov)
-[![Yahoo](https://img.shields.io/badge/Yahoo-720e9e?style=for-the-badge&logo=yahoo&logoColor=white)](mailto:lenargasimov@yahoo.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lenargasimovdev@gmail.com)
