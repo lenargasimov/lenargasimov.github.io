@@ -75,7 +75,7 @@ a {
   cursor: pointer;
 }
 
-.btn a[href="cv"] {
+.btn a {
   font-family: 'JetBrains Mono', monospace;
   color: #23272D;
   text-align: center;
@@ -85,8 +85,9 @@ a {
   font-weight: bold;
 }
 
-.btn:hover {
+.btn a:hover {
   background-color: #33ffa9;
+  color: #ffffff;
 }
 
 .span {
