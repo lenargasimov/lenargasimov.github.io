@@ -345,8 +345,8 @@ ul li:before {
 /* Contact */
 /* Style inputs */
 .contact-title {
-  text-align: left;
-  padding-left: 10px;
+  margin: 0 auto;
+  text-align: center;
   width: 50%;
 }
 
@@ -401,7 +401,7 @@ input[type=text], select, textarea {
 
 /* Create two columns that float next to eachother */
 .column-contact {
-  float: right;
+  margin: 0 auto;
   width: 50%;
   margin-top: 6px;
   padding: 10px;
@@ -427,6 +427,10 @@ input[type=text], select, textarea {
   background-color: #33FFA9;
   padding: 200px 0px 200px 0px;
   position: relative;
+  background-image: url("../image/footer.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-description {
