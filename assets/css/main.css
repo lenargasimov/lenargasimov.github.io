@@ -52,7 +52,7 @@ table {
 
 .spotify-description{
   position: relative;
-  font-size: 16px;
+  font-size: 1em;
   text-align: left;
   color: #ffffff;
 }
@@ -453,7 +453,7 @@ ul.icons {
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon:before {
-      font-size: 1.25em; }
+      font-size: 1.75em; }
     ul.icons li a {
       color: inherit; }
 
