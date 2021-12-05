@@ -1,156 +1,58 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Lenar Gasimov</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./image/profile-rounded.png">
-    <meta property="og:type" content="profile">
-    <meta property="og:title" content="Lenar Gasimov">
-    <meta property="og:description" content="I'm Lenar. I'm a Trainee Golang developer.
-    I specialize in full stack web development and writing readable code.">
-    <meta property="og:url" content="https://lenargasimov.dev">
-    <meta property="og:image" content="https://github.com/lenargasimov.png">
-    <meta property="profile:first_name" content="Lenar">
-    <meta property="profile:last_name" content="Gasimov">
-    <meta name="theme-color" content="#131313">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- Spotify alert -->
-<div id="spotify"></div>
+	<head>
+		<title>Lenar Gasimov</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="./images/profile-rounded.png">
+		<meta property="og:type" content="profile">
+		<meta property="og:title" content="Lenar Gasimov">
+		<meta property="og:description" content="I'm Lenar. I'm a Trainee Golang developer.
+    	I specialize in full stack web development and writing readable code.">
+		<meta property="og:url" content="https://lenargasimov.dev">
+		<meta property="og:image" content="https://github.com/lenargasimov.png">
+		<meta property="profile:first_name" content="Lenar">
+		<meta property="profile:last_name" content="Gasimov">
+		<meta name="theme-color" content="#131313">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!--Navigation-->
-<div class="topnav" id="myTopnav">
-    <div class="topnav-left">
-      <a href="index.html"><span class="span">&lt;/</span> Lenar Gasimov</a>
-    </div>
-    <button class="btn"><a href="https://drive.google.com/file/d/1R3ELzUgzSKeO6sLTMdp4h6Q0hTB6f00m/view?usp=sharing" target="_blank">CV/></a></button>
-    <a href="contact.html">Contacts</a>
-    <a href="https://lenar-blog.herokuapp.com" target="_blank">Blog</a>
-    <a href="#work">Work</a>
-    <a href="#about">About</a>
-    <a href="index.html" class="active">Home</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-</div>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat&display=swap" rel="stylesheet">
 
-<!--Intro-->
-<div class="flex-container-intro">
-  <div class="flex-item-left-intro">
-    <div class="intro">
-      <h1>I'm a Golang Developer based in Naberezhnye Chelny</h1>
-      <p class="intro-description">I specialize in full stack web development and writing readable code.</p>
-      <button class="button"><a href="contact.html">Contact me/></a></button>
-      <div class="social-links">
-          <a href="https://github.com/lenargasimov" target="_blank">GitHub</a>
-          <a href="https://twitter.com/lenargasimov" target="_blank">Twitter</a>
-          <a href="https://www.linkedin.com/in/lenargasimov" target="_blank">LinkedIn</a>
-      </div>
-    </div>
-  </div>
-  <div class="flex-item-right-intro">
-    <img class="profile-pic" src="./image/profile.jpg" alt="Profile pic">
-  </div>
-</div>
+		<link rel="stylesheet" href="assets/css/main.css" />
 
-<!--About me-->
-<div id="about" class="flex-container">
-  <div class="flex-item-left">
-    <h2>About me</h2>
-    <p class="about-description">&lt;p&gt;<br>I believe that I can be a good team player with the ability to work under minimum
-        guidance especially when carrying out challenging assignments.<br>&lt;/p&gt;
-    </p>
-  </div>
+	</head>
 
-  <div class="flex-item-right">
-      <hr class="hr">
-      <p class="skills-description">I thrive on bringing ideas to life.</p>
-      <ul>
-          <li>Practical knowledge of front-end technologies: HTML5, CSS3, Bootstrap</li>
-          <li>Coding and scripting skills in Python</li>
-          <li>Expertise in web frameworks: Flask and Django</li>
-          <li>Familiarity with PostgreSQL</li>
-      </ul>
-      <p class="skills-description">Creating and building projects that solve a problem is a high priority for me.</p>
-      <button class="button-linkedin"><a href="https://www.linkedin.com/in/lenargasimov" target="_blank">Linkedin profile/></a></button>
-  </div>
-</div>
+	<body class="is-preload">
 
-<!--Recent works-->
-<div id="work" class="flex-container-works">
-  <div class="flex-item-left-works">
-    <h2>Recent works</h2>
-    <p class="about-description">&lt;p&gt;<br>Here you can see some of my works.<br>&lt;/p&gt;
-    </p>
-  </div>
-  <div class="flex-item-right-works">
-      <hr class="hr">
-      <p class="skills-description">Feel free to check my GitHub repo for code.
-        You can also browse all the projects I've found interesting by
-        looking at what I've starred.</p>
-  </div>
-</div>
 
-<!--Carousel-->
-<div class="wrapper">
-  <div class="carousel owl-carousel">
-    <div class="card">
-        <a href="https://github.com/lenargasimov/blog" target="_blank">
-        <img src="./image/blog.png" alt="">
-        </a>
-        <p>Blog</p>
-        <a class="github" href="https://github.com/lenargasimov/blog">View on GitHub/></a>
-    </div>
-    <div class="card">
-      <a href="https://github.com/djelectrostatic/djelectrostatic.github.io" target="_blank">
-      <img src="./image/dj.png" alt="">
-      </a>
-      <p>DJ booking</p>
-      <a class="github" href="https://github.com/djelectrostatic/djelectrostatic.github.io">View on GitHub/></a>
-  </div>
-    <div class="card">
-        <a href="https://github.com/lenargasimov/lenar-bot" target="_blank">
-        <img src="./image/bot.png" alt="">
-        </a>
-        <p>Lenar’s bot</p>
-        <a class="github" href="https://github.com/lenargasimov/lenar-bot">View on GitHub/></a>
-    </div>
-    <div class="card">
-        <a href="https://github.com/lenargasimov/birthday-wisher" target="_blank">
-        <img src="./image/birthday.png" alt="">
-        </a>
-        <p>Automated Birthday Wisher</p>
-        <a class="github" href="https://github.com/lenargasimov/birthday-wisher">View on GitHub/></a>
-    </div>
-  </div>
-</div>
+		<!-- Header -->
+			<header id="header">
+				<h1>Lenar Gasimov</h1>
+				<p>I'm a Trainee Golang Developer
+					<br>I specialize in full stack web development and writing readable code</p>
+			</header>
 
-<button class="button-projects"><a href="https://github.com/lenargasimov?tab=repositories">See all projects/></a></button>
 
-<!--Footer-->
-<div class="footer">
-  <p class="footer-description">Making awesome things for awesome people!</p>
-  <div class="social-links-footer">
-    <a href="https://github.com/lenargasimov" target="_blank">GitHub</a>
-    <a href="https://twitter.com/lenargasimov" target="_blank">Twitter</a>
-    <a href="https://www.linkedin.com/in/lenargasimov/" target="_blank">LinkedIn</a>
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/lenargasimov" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://twitter.com/lenargasimov" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.linkedin.com/in/lenargasimov/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">Instagram</span></a></li>
+					<li><a href="mailto:lenargasimov@duck.com" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+<!--				<ul class="copyright">-->
+<!--				</ul>-->
+				<!-- Spotify alert -->
+				<div id="spotify"></div>
+			</footer>
 
-    <!--    Copyright-->
-    <p class="copyright">&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> - Lenar Gasimov</p>
-  </div>
-</div>
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/index.js"></script>
 
-<script src="js/index.js"></script>
 
-</body>
+	</body>
 </html>
-

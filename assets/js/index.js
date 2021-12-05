@@ -23,7 +23,7 @@ if (res.np === true) {
     ).innerHTML = `<div class="spotify-alert">
             <div class="spotify-description">
             Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Spotify</b>
-            <img class="spotify-logo" src="image/spotify-logo.png" alt="">
+            <img class="spotify-logo" src="images/spotify-logo.png" alt="">
             </div>
     </div>`;
 } else {
@@ -43,38 +43,3 @@ fetch(
 
 setInterval(getSong, 15 * 1000);
 getSong();
-
-
-//Burger menu
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-//Carousel
-$(".carousel").owlCarousel({
-           margin: 20,
-           loop: true,
-           autoplay: true,
-           autoplayTimeout: 2000,
-           autoplayHoverPause: true,
-           responsive: {
-             0:{
-               items:1,
-               nav: false
-             },
-             600:{
-               items:2,
-               nav: false
-             },
-             1000:{
-               items:3,
-               nav: false
-             }
-           }
-         });
-
