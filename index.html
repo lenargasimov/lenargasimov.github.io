@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="images/favicon.ico">
+  <link rel="icon" href="images/favicon.png">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Lenar Gasimov">
   <meta property="og:description" content="Hi! I'm Lenar. I specialize in full
@@ -17,31 +17,66 @@
   <meta name="description" content="Frontend developer">
   <meta name="keywords" content="HTML,CSS,JavaScript">
   <meta name="author" content="Lenar Gasimov">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lenar Gasimov</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <!-- Spotify alert -->
+<div id="spotify"></div>
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Lenar.</h1>
-    <p>a <span class="pro">pro</span>grammer.</p>
+    <div class="title-text">
+      <h1>I'm Lenar.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
   </div>
 
   <div class="middle-container">
-
+    <div class="profile">
+      <img class="profile-pic" src="https://octodex.github.com/images/dojocat.jpg" alt="lenar-profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">I'm a web designer / developer. I have a passion for web design and love to create for web and mobile devices.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/computer.png" alt="">
+        <h3>Design & Development</h3>
+        <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.
+          I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/chillies.png" alt="">
+        <h3>Hot Wings Challenge</h3>
+        <p>But my best skill is actually in eating hot wings. I am the undisputed king of hot wing challenges. Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!</p>
+      <a class="btn" href="mailto:lenargasimov@duck.com">CONTACT ME</a>
+    </div>
   </div>
+
 
   <div class="bottom-container">
-
+    <a class="footer-link" href="https://www.linkedin.com/in/lenargasimov" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/lenargasimov" target="_blank">Twitter</a>
+    <a class="footer-link" href="https://github.com/lenargasimov" target="_blank">GitHub</a>
+    <p class="copyright">&copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> Lenar Gasimov.</p>
   </div>
+  <script src="js/index.js"></script>
 
 </body>
 
