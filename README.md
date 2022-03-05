@@ -16,4 +16,4 @@
     <img src="https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io.svg" alt="">
 </p>
 
-![mysite](mysite.gif)
+![screen](screen.png)
