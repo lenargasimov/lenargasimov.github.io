@@ -183,7 +183,7 @@ html {
 body {
   height: 100%;
   background-color: #ffffff;
-  opacity: 0.9;
+  opacity: 0.99;
 
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
@@ -240,6 +240,26 @@ textarea {
   line-height: 2;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+}
+
+/* Spotify */
+.spotify-logo {
+  width: 33px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.spotify-alert {
+  padding: 20px;
+  background-color: #ffffff;
+  opacity: 0.99;
+}
+
+.spotify-description {
+  position: relative;
+  font-size: 14px;
+  text-align: left;
+  color: #191414;
 }
 
 @media screen and (max-width: 1680px) {

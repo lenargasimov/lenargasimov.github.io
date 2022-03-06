@@ -8,19 +8,19 @@
 	<head>
 		<title>Lenar Gasimov</title>
 		<link rel="icon" href="images/avatar.jpg">
-	  <meta property="og:type" content="profile">
-	  <meta property="og:title" content="Lenar Gasimov">
-	  <meta property="og:description" content="Hi! I'm Lenar. I specialize in full
-	  stack web development and writing readable code.">
-	  <meta property="og:url" content="https://lenargasimov.github.io">
-	  <meta property="og:image" content="https://github.com/lenargasimov.png">
-	  <meta property="profile:first_name" content="Lenar">
-	  <meta property="profile:last_name" content="Gasimov">
-	  <meta name="theme-color" content="#131313">
+		<meta property="og:type" content="profile">
+		<meta property="og:title" content="Lenar Gasimov">
+		<meta property="og:description" content="Hi! I'm Lenar. I specialize in full
+		stack web development and writing readable code.">
+		<meta property="og:url" content="https://lenargasimov.github.io">
+		<meta property="og:image" content="https://github.com/lenargasimov.png">
+		<meta property="profile:first_name" content="Lenar">
+		<meta property="profile:last_name" content="Gasimov">
+		<meta name="theme-color" content="#131313">
 
-	  <meta name="description" content="">
-	  <meta name="keywords" content="Python">
-	  <meta name="author" content="Lenar Gasimov">
+		<meta name="description" content="Python Developer">
+		<meta name="keywords" content="Python">
+		<meta name="author" content="Lenar Gasimov">
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,8 +29,13 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 	</head>
 	<body class="is-loading">
+		
+        <!-- Spotify alert -->
+        <div id="spotify"></div>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -40,45 +45,31 @@
 						<header>
 							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
 							<h1>Lenar Gasimov</h1>
-							<p></p>
+							<p>Python Developer</p>
 						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
+
+                        <hr />
+                        <p>If you have an offer, opportunity, <br> or introduction that makes my life <br> more interesting,
+                            e-mail me.</p>
+
+						<form action="https://formspree.io/f/xjvlranz" method="POST">
+                            <div class="field">
+                                <input type="text" name="name" id="name" placeholder="Name" />
+                            </div>
+                            <div class="field">
+                                <input type="email" name="email" id="email" placeholder="Email" />
+                            </div>
+                            <div class="field">
+                                <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                            </div>
+							<div class="g-recaptcha" data-sitekey="6Ldc-roeAAAAACz1R8aqI2qCyJJtc6YpZtN1lxRP"></div>
+							<br/>
+                            <ul class="actions">
+								<button type="submit">Send</button>
+                            </ul>
+                        </form>
+                        <hr />
+						
 						<footer>
 							<ul class="icons">
 								<li><a href="https://twitter.com/lenargasimov" class="fa-twitter">Twitter</a></li>
@@ -87,7 +78,7 @@
 							</ul>
 						</footer>
 					</section>
-
+ 
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
@@ -106,6 +97,7 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+			<script src="assets/js/index.js"></script>
 
 	</body>
 </html>
