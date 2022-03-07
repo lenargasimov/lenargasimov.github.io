@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-    <img align='center' src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/lenargasimov/lenargasimov.github.io.visitor-badge">
     <img src="https://img.shields.io/github/last-commit/lenargasimov/lenargasimov.github.io?style=plastic">
     <img src="https://img.shields.io/github/forks/lenargasimov/lenargasimov.github.io.svg" alt="">
     <img src="https://img.shields.io/github/stars/lenargasimov/lenargasimov.github.io.svg" alt="">
