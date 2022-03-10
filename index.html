@@ -29,8 +29,17 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+		
+		<script src="https://www.google.com/recaptcha/api.js?render={6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY}"></script>
+		<script>
+			grecaptcha.ready(function () {
+				grecaptcha.execute('{6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY}', {action: 'submit'}).then(function (token) {
+					console.info("got token: " + token);
+					document.getElementById('g-recaptcha-response').value = token;
+				});
+			});
+		</script>
+  
 	</head>
 	<body class="is-loading">
 		
@@ -62,10 +71,9 @@
                             <div class="field">
                                 <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
                             </div>
-							<div class="g-recaptcha" data-sitekey="6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY"></div>
-							<br/>
+							<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                             <ul class="actions">
-								<button type="submit">SEND</button>
+								<button type="submit" class="btn btn-primary" value="submit">SEND</button>
                             </ul>
                         </form>
                         <hr />
