@@ -29,7 +29,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
+
 		<script src="https://www.google.com/recaptcha/api.js?render={6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY}"></script>
 		<script>
 			grecaptcha.ready(function () {
@@ -67,11 +67,11 @@
                             </div>
                             <div class="field">
                                 <input type="email" name="email" id="email" placeholder="Email" />
+								<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                             </div>
                             <div class="field">
                                 <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
                             </div>
-							<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                             <ul class="actions">
 								<button type="submit" class="btn btn-primary" value="submit">SEND</button>
                             </ul>
