@@ -242,20 +242,20 @@ textarea {
   text-transform: uppercase;
 }
 
-/* Spotify */
-.spotify-logo {
+/* Yandex Music */
+.yandex-music-logo {
   width: 33px;
   display: inline;
   vertical-align: middle;
 }
 
-.spotify-alert {
+.yandex-music-alert {
   padding: 20px;
   background-color: #ffffff;
   opacity: 0.99;
 }
 
-.spotify-description {
+.yandex-music-description {
   position: relative;
   font-size: 14px;
   text-align: left;
