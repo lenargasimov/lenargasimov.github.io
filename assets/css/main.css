@@ -743,6 +743,10 @@ dl dd {
 
 /* Button */
 
+.btn-primary {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
