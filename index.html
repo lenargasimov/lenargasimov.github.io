@@ -1,117 +1,274 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Lenar Gasimov</title>
-		<link rel="icon" href="images/avatar.jpg">
-		<meta property="og:type" content="profile">
-		<meta property="og:title" content="Lenar Gasimov">
-		<meta property="og:description" content="Hi! I'm Lenar. I specialize in full
-		stack web development and writing readable code.">
-		<meta property="og:url" content="https://lenargasimov.github.io">
-		<meta property="og:image" content="https://github.com/lenargasimov.png">
-		<meta property="profile:first_name" content="Lenar">
-		<meta property="profile:last_name" content="Gasimov">
-		<meta name="theme-color" content="#131313">
 
-		<meta name="description" content="Python Developer">
-		<meta name="keywords" content="Python">
-		<meta name="author" content="Lenar Gasimov">
+<head>
+  <meta charset="utf-8">
+  <title>Lenar Gasimov</title>
+  <link rel="icon" href="images/profile.jpg">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Lenar Gasimov">
+  <meta property="og:description" content="Hi! I'm Lenar. I specialize in full
+  stack web development and writing readable code.">
+  <meta property="og:url" content="https://lenargasimov.github.io">
+  <meta property="og:image" content="https://github.com/lenargasimov.png">
+  <meta property="profile:first_name" content="Lenar">
+  <meta property="profile:last_name" content="Gasimov">
+  <meta name="theme-color" content="#131313">
 
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <meta name="description" content="Full-Stack Developer">
+  <meta name="keywords" content="Full-Stack">
+  <meta name="author" content="Lenar Gasimov">
 
-		<script src="https://www.google.com/recaptcha/api.js?render=6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY"></script>
-		<script>
-			grecaptcha.ready(function () {
-				grecaptcha.execute('6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY', {action: 'submit'}).then(function (token) {
-					console.info("got token: " + token);
-					document.getElementById('g-recaptcha-response').value = token;
-				});
-			});
-		</script>
-  
-	</head>
-	<body class="is-loading">
-		
-        <!-- Yandex Music alert -->
-        <div id="yandex-music"></div>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Tinos:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Lenar Gasimov</h1>
-							<p>Python Developer</p>
-							<ul class="actions">
-								<button class="btn btn-primary"><a href="https://drive.google.com/file/d/1tRpoU0fmUkHSyd2A7v2sG57ZRnymoq7D/view?usp=sharing" target="_blank">DOWNLOAD CV</a></button>
-                            </ul>
-						</header>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-                        <hr />
-                        <p>If you have an offer, opportunity, <br> or introduction that makes my life <br> more interesting,
-                            e-mail me.</p>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-						<form action="https://formspree.io/f/xjvlranz" method="POST">
-                            <div class="field">
-                                <input type="text" name="name" id="name" placeholder="Name" />
-                            </div>
-                            <div class="field">
-                                <input type="email" name="email" id="email" placeholder="Email" />
-								<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-                            </div>
-                            <div class="field">
-                                <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-                            </div>
-                            <ul class="actions">
-								<button type="submit" class="btn btn-primary" value="submit">SEND</button>
-                            </ul>
-                        </form>
-                        <hr />
-						
-						<footer>
-							<ul class="icons">
-								<li><a href="https://twitter.com/lenargasimov" class="fa-twitter">Twitter</a></li>
-								<li><a href="https://www.linkedin.com/in/lenargasimov" class="fa-linkedin">linkedin</a></li>
-								<li><a href="https://github.com/lenargasimov" class="fa-github">GitHub</a></li>
-							</ul>
-						</footer>
-					</section>
- 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Lenar Gasimov</li>
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY"></script>
+  <script>
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6Le1C8seAAAAAG7iz7u9vuVvhUz-8zsYDjspvBjY', {action: 'submit'}).then(function (token) {
+        console.info("got token: " + token);
+        document.getElementById('g-recaptcha-response').value = token;
+      });
+    });
+  </script>
+</head>
 
-			</div>
+<body>
+  <!-- Yandex Music alert -->
+  <div id="yandex-music"></div>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-			<script src="assets/js/index.js"></script>
+  <section class="colored-section" id="title">
 
-	</body>
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a href=""><img class="nav-logo" src="images/logo.svg" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="https://lenar-blog.herokuapp.com">Blog & Cases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+
+              <a target="_blank" href="https://twitter.com/lenargasimov"><i class="social-icon fab fa-twitter fa-lg"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/lenargasimov"><i class="social-icon fab fa-linkedin fa-lg"></i></a>
+              <a target="_blank" href="https://github.com/lenargasimov"><i class="social-icon fab fa-github fa-lg"></i></a>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Hi, I'm Lenar, a Full-Stack developer!</h1>
+          <p class="description">By day I design GitLab, an open-core DevOps platform. By night I do digital illustration. Creative expression is what lights me up, and I'm always open to learning about new opportunities.</p>
+          <button type="button" class="btn btn-lg contact-button"> Get in touch</button>
+          <img class="star-orange1" src="images/star-orange.svg" alt="star-orange">
+          <img class="star-orange2" src="images/star-orange.svg" alt="star-orange">
+          <img class="star-orange3" src="images/star-orange.svg" alt="star-orange">
+        </div>
+
+        <div class="col-lg-6">
+          <img class="meteorite_bg" src="images/meteorite_bg.svg" alt="">
+          <img class="title-image" src="images/profile.jpg" alt="profile-pic">
+          <img class="meteorite_stars" src="images/meteorite_stars.svg" alt="meteorite_stars">
+          
+        </div>
+        
+        <!-- Press -->
+
+        <div id="press">
+          <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+          <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+          <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+          <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+      <p class="feature-section-title">I can help you with</p>
+
+      <div class="row">
+        <img class="meteorite_stars_features" src="images/meteorite_stars.svg" alt="meteorite_stars">
+        <img class="meteorite_bg_features" src="images/meteorite_bg.svg" alt="">
+
+        <div class="feature-box col-lg-4">
+          <img src="images/single-neutral-search.svg" alt="">
+          <h3 class="feature-title">UX Research</h3>
+          <p>Find out what your
+            customers want and what
+            your business needs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img src="images/graphic-tablet-draw-1.svg" alt="">
+          <h3 class="feature-title">UX Design</h3>
+          <p>Create information architecture, user flows, and define the optimal functionality for your product.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img src="images/graphic-tablet-pen.svg" alt="">
+          <h3 class="feature-title">Visual/UI Design</h3>
+          <p>Create a delightful user experience through your product’s visual language.</p>
+        </div>
+        <div class="feature-box col-lg-6">
+          <img src="images/phone-scroll.svg" alt="">
+          <h3 class="feature-title">Usability Testing</h3>
+          <p>Test your prototype or product with real or potential users to create a smooth product experience that your customers truly want to use.</p>
+        </div>
+
+        <div class="feature-box col-lg-6">
+          <img src="images/file-code-heart-1.svg" alt="">
+          <h3 class="feature-title">Development Handoff</h3>
+          <p>Collaborate with your developers throughout the project to create a sustainable, pixel-perfect product that works and looks great.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">How Much Does It Cost to Develop a Website?</h2>
+    <p>How Much Does It Cost To Make A Website in 2022? Cost Breakdown</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Landing page</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$500</h2>
+            <p class="card-desciption">Content</p>
+            <p class="card-desciption">Link building</p>
+            <p class="card-desciption">UI and UX</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">News website</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$1000</h2>
+            <p class="card-desciption">Search and filtering options</p>
+            <p class="card-desciption">Switching user profile</p>
+            <p class="card-desciption">Search and filtering</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Marketplace website</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$3000</h2>
+            <p class="card-desciption">Homepage and products listing</p>
+            <p class="card-desciption">Registration and profile creation</p>
+            <p class="card-desciption">PostgreSQL database management system</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="contact-section" id="cta">
+
+    <!-- Contact form-->
+    <div class="container-contact">
+      <div class="row">
+        <div class="column-contact">
+          <div class="contact-option">
+            <h1 class="contact-title">Wanna know more?</h1>
+            <p class="contact-description">Want to know more about my design process? 
+              Have an exciting project that could use my help? 
+              Drop me a line and let's chat!</p>
+          </div>
+        </div>
+        <div class="column-contact">
+          <form action="https://formspree.io/f/xjvlranz" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <input type="text" id="email" name="email" placeholder="Your email">
+            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+            <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+            <button type="button" class="btn btn-lg contact-button">Send</button>
+            <img class="contact-star-orange1" src="images/star-orange.svg" alt="star-orange">
+            <img class="contact-star-orange2" src="images/star-orange.svg" alt="star-orange">
+            <img class="contact-star-orange3" src="images/star-orange.svg" alt="star-orange">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="footer-section" id="footer">
+      <p class="footer-description">Designed and built with lots of love.</p>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+
 </html>
