@@ -32,7 +32,7 @@ p {
 
 /* Containers */
 
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
 
@@ -64,7 +64,7 @@ p {
 }
 
 .nav-logo {
-  width: 120px;
+  width: 70%;
   margin-top: 12px;
 }
 
@@ -112,6 +112,14 @@ p {
 
 #title .container-fluid {
   padding: 1% 10% 5%;
+}
+
+.one {
+  order: 2;
+}
+
+.two {
+  order: 1;
 }
 
 /* Title Image */
@@ -267,11 +275,6 @@ p {
 
 /* Contact */
 /* Style inputs */
-.contact-title {
-  text-align: left;
-  padding-left: 10px;
-  width: 50%;
-}
 
 input[type=text], select, textarea {
   width: 90%;
@@ -333,6 +336,7 @@ input[type=text], select, textarea {
   font-family: "Montserrat";
   font-size: 1.3rem;
   font-weight: bold;
+
 }
 
 .contact-description {
@@ -395,14 +399,147 @@ input[type=text], select, textarea {
   color: #f07B61;
 }
 
+.wrap {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 @media (max-width: 1028px) {
+  .one {
+    order: 2;
+  }
+
+  .two {
+    order: 1;
+  }
 
   #title {
     text-align: center;
+    
   }
 
   .title-image {
     position: static;
     transform: rotate(0);
+    width: 100%;
+  }
+
+  .press-logo {
+    width: 70%;
+  }
+
+  .big-heading {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .description {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .contact-button {
+    font-size: 2rem;
+    width: 380px;
+    height: 140px;
+    align: left;
+  }
+
+  .feature-section-title {
+    font-size: 3rem;
+  }
+
+  .feature-title {
+    font-size: 3rem;
+    padding-top: 30px;
+  }
+
+  .feature-box p{
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .feature-icon {
+    width: 80px;
+  }
+
+  .pricing-description {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 3rem;
+  }
+
+  .card-desciption {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .column-contact {
+    float: right;
+    width: 100%;
+    margin-top: 6px;
+    padding: 100px;
+  }
+
+  .contact-title {
+    font-size: 3rem;
+  }
+
+  .contact-description {
+    font-size: 2rem;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .footer-description {
+    font-size: 2rem;
+  }
+
+  .nav-logo {
+    width: 300px;
+  }
+
+  .navbar {
+    padding-top: 10%;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 4rem;
+    color: #f07B61;
+  }
+
+  .nav-link {
+    font-size: 4rem;
+    padding: 40px;
+  }
+
+  .social-icon {
+    font-size: 7rem;
+    margin: 50px 70px;
+  }
+
+  .meteorite_stars {
+    left: 710px;
+    top: 1px;
+  }
+
+  .contact-star-orange1 {
+    right: 230px;
+    top: 7910px;
+  }
+  
+  .contact-star-orange2 {
+    right: 210px;
+    top: 7890px;
+  }
+  
+  .contact-star-orange3 {
+    right: 180px;
+    top: 7910px;
   }
 }
