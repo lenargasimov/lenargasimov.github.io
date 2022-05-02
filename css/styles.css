@@ -114,14 +114,6 @@ p {
   padding: 1% 10% 5%;
 }
 
-.one {
-  order: 2;
-}
-
-.two {
-  order: 1;
-}
-
 /* Title Image */
 
 .title-image {
@@ -228,7 +220,6 @@ p {
   border-radius: 100%;
   margin: 20px;
 }
-
 
 #press {
   margin-top: 8%;
@@ -401,10 +392,22 @@ input[type=text], select, textarea {
 
 .wrap {
   display: flex;
-  flex-flow: column wrap;
+}
+
+.one {
+  order: 1;
+}
+
+.two {
+  order: 2;
 }
 
 @media (max-width: 1028px) {
+  .wrap {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
   .one {
     order: 2;
   }
