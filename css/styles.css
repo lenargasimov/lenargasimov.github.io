@@ -148,8 +148,8 @@ p {
 .meteorite_stars {
   width: 140px;
   position: absolute;
-  left: 170px;
-  top: 330px;
+  left: 130px;
+  top: 300px;
 }
 
 .meteorite_stars_features {
@@ -226,7 +226,7 @@ p {
 }
 
 .press-logo {
-  width: 10%;
+  width: 15%;
   margin: 20px 20px 50px;
 }
 
@@ -346,21 +346,21 @@ input[type=text], select, textarea {
   width: 15px;
   position: absolute;
   right: 230px;
-  top: 3110px;
+  top: 2935px;
 }
 
 .contact-star-orange2 {
   width: 8px;
   position: absolute;
   right: 210px;
-  top: 3090px;
+  top: 2905px;
 }
 
 .contact-star-orange3 {
   width: 8px;
   position: absolute;
   right: 180px;
-  top: 3110px;
+  top: 2935px;
 }
 
 /* Footer Section */
