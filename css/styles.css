@@ -201,8 +201,12 @@ input[type=text], select, textarea {
   h2 {
     font-size: 5rem;
   }
+  hr {
+    border: dotted #EAF6F6 8px;
+    width: 4%;
+  }
   .profile {
-    width: 80%;
+    width: 40%;
   }
   .intro {
     width: 90%;
