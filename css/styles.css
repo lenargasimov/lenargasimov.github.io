@@ -193,13 +193,13 @@ input[type=text], select, textarea {
 
 @media screen and (max-width: 1028px) {
   body {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   h1 {
-    font-size: 10rem;
+    font-size: 11rem;
   }
   h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   hr {
     border: dotted #EAF6F6 8px;
@@ -232,10 +232,10 @@ input[type=text], select, textarea {
     bottom: 200px;
   }
   .computer-img {
-    width: 30%;
+    width: 40%;
   }
   .chilli-img {
-    width: 30%;
+    width: 40%;
   }
   .container {
     width: 90%;
