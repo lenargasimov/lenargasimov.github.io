@@ -194,6 +194,7 @@ input[type=text], select, textarea {
 @media screen and (max-width: 1028px) {
   body {
     font-size: 3rem;
+    text-align: left;
   }
   h1 {
     font-size: 11rem;
