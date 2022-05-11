@@ -177,7 +177,7 @@ input[type=text], select, textarea {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 1.25rem;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 50px 10px 50px;
   text-decoration: none;
 }
 
@@ -199,7 +199,7 @@ input[type=text], select, textarea {
     font-size: 9rem;
   }
   h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   hr {
     border: dotted #EAF6F6 8px;
@@ -241,8 +241,8 @@ input[type=text], select, textarea {
     width: 90%;
   }
   .btn {
-    padding: 40px 50px 40px 50px;
-    font-size: 2.5rem;
+    padding: 20px 100px 20px 100px;
+    font-size: 3rem;
   }
   input[type=text], select, textarea {
     padding: 80px;
