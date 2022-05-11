@@ -197,6 +197,7 @@ input[type=text], select, textarea {
   }
   h1 {
     font-size: 11rem;
+    font-weight: bold;
   }
   h2 {
     font-size: 5rem;
