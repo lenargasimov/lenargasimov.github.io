@@ -107,7 +107,7 @@ a:hover {
 
 .copyright {
   color: #EAF6F6;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   padding: 20px 0;
 }
 
@@ -144,6 +144,8 @@ a:hover {
 }
 
 input[type=text], select, textarea {
+  font-family: 'Merriweather', serif;
+  font-size: 0.8rem;
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
