@@ -193,21 +193,20 @@ input[type=text], select, textarea {
 
 @media screen and (max-width: 1028px) {
   body {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h1 {
-    font-size: 11rem;
-    font-weight: bold;
+    font-size: 9rem;
   }
   h2 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   hr {
     border: dotted #EAF6F6 8px;
     width: 4%;
   }
   .profile {
-    width: 60%;
+    width: 50%;
   }
   .intro {
     width: 90%;
@@ -233,37 +232,37 @@ input[type=text], select, textarea {
     bottom: 200px;
   }
   .computer-img {
-    width: 40%;
+    width: 30%;
   }
   .chilli-img {
-    width: 40%;
+    width: 30%;
   }
   .container {
     width: 90%;
   }
   .btn {
     padding: 40px 50px 40px 50px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   input[type=text], select, textarea {
     padding: 80px;
     margin-bottom: 30px;
-    font-size: 2.7rem;
+    font-size: 2.3rem;
   }
   .textarea {
     height: 500px;
   }
   .social-icon {
-    font-size: 6.5rem;
+    font-size: 6rem;
     padding: 30px;
   }
   .yandex-music-logo {
     width: 88px;
   }
   .yandex-music-description {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .copyright {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
