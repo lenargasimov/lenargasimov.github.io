@@ -196,13 +196,13 @@ input[type=text], select, textarea {
     font-size: 3rem;
   }
   h1 {
-    font-size: 9rem;
+    font-size: 11rem;
   }
   h2 {
     font-size: 5rem;
-  };
+  }
   .profile {
-    width: 40%;
+    width: 80%;
   }
   .intro {
     width: 90%;
@@ -224,6 +224,12 @@ input[type=text], select, textarea {
   .bottom-cloud {
     left: 100px;
     bottom: 200px;
+  }
+  .computer-img {
+    width: 40%;
+  }
+  .chilli-img {
+    width: 40%;
   }
   .container {
     width: 90%;
@@ -249,5 +255,8 @@ input[type=text], select, textarea {
   }
   .yandex-music-description {
     font-size: 3rem;
+  }
+  .copyright {
+    font-size: 2rem;
   }
 }
