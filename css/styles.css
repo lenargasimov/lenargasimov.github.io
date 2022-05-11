@@ -36,7 +36,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -56,12 +56,12 @@ a:hover {
 
 .yandex-music-alert {
   padding: 20px;
-  opacity: 0.99;
 }
 
 .yandex-music-description {
+  font-family: 'Montserrat', sans-serif;
   position: relative;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -105,6 +105,10 @@ a:hover {
   margin: 40px auto 60px;
 }
 
+.social-icon {
+  font-size: 2rem;
+} 
+
 .copyright {
   color: #EAF6F6;
   font-size: 0.8rem;
@@ -145,7 +149,7 @@ a:hover {
 
 input[type=text], select, textarea {
   font-family: 'Merriweather', serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -154,6 +158,10 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+} 
+
+.textarea {
+  height: 200px;
 }
 
 .btn {
@@ -168,7 +176,7 @@ input[type=text], select, textarea {
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -183,11 +191,13 @@ input[type=text], select, textarea {
   text-decoration: none;
 }
 
-.social-icon {
-  font-size: 2rem;
-} 
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1028px) {
+  h1 {
+    font-size: 9rem;
+  }
+  .profile {
+    width: 40%;
+  }
   .intro {
     width: 90%;
     margin: 0 auto;
@@ -208,5 +218,30 @@ input[type=text], select, textarea {
   .bottom-cloud {
     left: 100px;
     bottom: 200px;
+  }
+  .container {
+    width: 90%;
+  }
+  .btn {
+    padding: 40px 50px 40px 50px;
+    font-size: 3rem;
+  }
+  input[type=text], select, textarea {
+    padding: 80px;
+    margin-bottom: 30px;
+    font-size: 2.7rem;
+  }
+  .textarea {
+    height: 500px;
+  }
+  .social-icon {
+    font-size: 6.5rem;
+    padding: 30px;
+  }
+  .yandex-music-logo {
+    width: 88px;
+  }
+  .yandex-music-description {
+    font-size: 1.4rem;
   }
 }
