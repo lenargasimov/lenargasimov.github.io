@@ -192,11 +192,14 @@ input[type=text], select, textarea {
 }
 
 @media screen and (max-width: 1028px) {
+  body {
+    font-size: 3rem;
+  }
   h1 {
     font-size: 9rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 5rem;
   };
   .profile {
     width: 40%;
@@ -245,6 +248,6 @@ input[type=text], select, textarea {
     width: 88px;
   }
   .yandex-music-description {
-    font-size: 1.4rem;
+    font-size: 3rem;
   }
 }
