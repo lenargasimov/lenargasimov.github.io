@@ -1,4 +1,4 @@
-//Yandex Music
+//Spotify
 const parseResponse = (res) => {
     const track = res.recenttracks.track[0];
     const artist = track.artist["#text"];
@@ -19,16 +19,16 @@ const parseResponse = (res) => {
     if (res.np === true) {
         console.log(`[last.fm] Received song data: ${res.name} - ${res.artist}`);
         document.querySelector(
-        "#yandex-music"
-        ).innerHTML = `<div class="yandex-music-alert">
-                <div class="yandex-music-description">
-                Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Yandex Music</b>
-                <img class="yandex-music-logo" src="images/yandex_music_logo.png" alt="">
+        "#spotify"
+        ).innerHTML = `<div class="spotify-alert">
+                <div class="spotify-description">
+                Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Spotify</b>
+                <img class="spotify-logo" src="images/spotify-logo.png" alt="">
                 </div>
         </div>`;
     } else {
         console.log(`[last.fm] No song data received, waiting...`);
-        document.querySelector("#yandex-music").innerHTML = ``;
+        document.querySelector("#spotify").innerHTML = ``;
     }
     };
     
@@ -43,3 +43,13 @@ const parseResponse = (res) => {
     
     setInterval(getSong, 15 * 1000);
     getSong();
+
+// Menu
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
