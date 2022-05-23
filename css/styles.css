@@ -196,7 +196,7 @@ input[type=text], select, textarea {
     font-size: 2.5rem;
   }
   h1 {
-    font-size: 10rem;
+    font-size: 9rem;
   }
   h2 {
     font-size: 5rem;
@@ -270,7 +270,7 @@ input[type=text], select, textarea {
   }
 }
 
-.topnav {
+/* .topnav {
   overflow: hidden;
   background-color: #E4F9F5;
 }
@@ -316,4 +316,4 @@ input[type=text], select, textarea {
     font-weight: bold;
     font-size: 1.17em;
   }
-}
+} */
