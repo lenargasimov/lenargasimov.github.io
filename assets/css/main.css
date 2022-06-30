@@ -182,15 +182,12 @@ html {
 
 body {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #2e2d4c;
   opacity: 0.99;
 
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+  background-image: url("images/download-confetti-2.svg");
   background-repeat: repeat, no-repeat, no-repeat;
-  background-size: 100px 100px, cover, cover;
+  background-size: 600px, cover, cover;
   background-position: top left, center center, bottom center;
   background-attachment: fixed, fixed, fixed;
 }
