@@ -584,6 +584,15 @@ input[type="radio"] + label:before {
 
 /* Icon */
 
+.social-icons {
+  padding: 50px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 36px;
+}
+
 .icon {
   text-decoration: none;
   position: relative;
@@ -928,6 +937,7 @@ body.is-loading #main {
   color: rgba(255, 255, 255, 0.75);
   cursor: default;
   text-align: center;
+  padding: 0;
 }
 
 #footer .copyright {
