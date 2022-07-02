@@ -239,24 +239,24 @@ textarea {
   text-transform: uppercase;
 }
 
-/* Spotify */
-.spotify-logo {
+/* Yandex Music */
+.yandex-logo {
   width: 33px;
   display: inline;
   vertical-align: middle;
 }
 
-.spotify-alert {
+.yandex-alert {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #1f1e37;
   opacity: 0.99;
 }
 
-.spotify-description {
+.yandex-description {
   position: relative;
   font-size: 14px;
   text-align: left;
-  color: #191414;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1680px) {

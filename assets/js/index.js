@@ -1,4 +1,4 @@
-//Spotify
+//Yandex Music
 const parseResponse = (res) => {
     const track = res.recenttracks.track[0];
     const artist = track.artist["#text"];
@@ -19,16 +19,16 @@ const parseResponse = (res) => {
     if (res.np === true) {
         console.log(`[last.fm] Received song data: ${res.name} - ${res.artist}`);
         document.querySelector(
-        "#spotify"
-        ).innerHTML = `<div class="spotify-alert">
-                <div class="spotify-description">
-                Currently listening to <b>${res.name}</b> by <b>${res.artist}</b> on <b>Spotify</b>
-                <img class="spotify-logo" src="images/spotify-logo.png" alt="">
+        "#yandex"
+        ).innerHTML = `<div class="yandex-alert">
+                <div class="yandex-description">
+                Currently listening to <b style="color: #ffffff; font-weight: bold">${res.name}</b> by <b style="color: #ffffff; font-weight: bold">${res.artist}</b> on <b style="color: #ffffff; font-weight: bold">Yandex Music</b>
+                <img class="yandex-logo" src="images/yandex_music_logo.png" alt="">
                 </div>
         </div>`;
     } else {
         console.log(`[last.fm] No song data received, waiting...`);
-        document.querySelector("#spotify").innerHTML = ``;
+        document.querySelector("#yandex").innerHTML = ``;
     }
     };
     
