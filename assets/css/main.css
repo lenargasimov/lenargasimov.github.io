@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 
 /*
 	Identity by HTML5 UP
@@ -231,7 +231,7 @@ input,
 select,
 textarea {
   color: #414f57;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 300;
   line-height: 2;
@@ -309,6 +309,9 @@ i {
 }
 
 p {
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+  line-height: 2;
   margin: 0 0 1.5em 0;
 }
 
@@ -750,7 +753,7 @@ dl dd {
 /* Button */
 
 .btn-primary {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 input[type="submit"],
