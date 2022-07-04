@@ -2,7 +2,7 @@
 const parseResponse = (res) => {
     const track = res.recenttracks.track[0];
     const artist = track.artist["#text"];
-    const image = track.image[3]["#text"];
+    const image = track.image[1]["#text"];
     const name = track.name;
     
     const np = track["@attr"] ? track["@attr"]["nowplaying"] === "true" : false;
@@ -23,7 +23,7 @@ const parseResponse = (res) => {
         ).innerHTML = `<div class="yandex-alert">
                 <div class="yandex-description">
                 Currently listening to <b style="color: #ffffff; font-weight: bold">${res.name}</b> by <b style="color: #ffffff; font-weight: bold">${res.artist}</b> on <b style="color: #ffffff; font-weight: bold">Yandex Music</b>
-                <img class="yandex-logo" src="images/yandex_music_logo.png" alt="">
+                <img class="yandex-artwork" src="${res.image}" alt="" />
                 </div>
         </div>`;
     } else {
