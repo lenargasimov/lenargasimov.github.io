@@ -22,8 +22,8 @@ const parseResponse = (res) => {
         "#yandex"
         ).innerHTML = `<div class="yandex-alert">
                 <div class="yandex-description">
-                Currently listening to <b style="color: #ffffff; font-weight: bold">${res.name}</b> by <b style="color: #ffffff; font-weight: bold">${res.artist}</b> on <b style="color: #ffffff; font-weight: bold">Yandex Music</b>
                 <img class="yandex-artwork" src="${res.image}" alt="" />
+                Currently listening to <b style="color: #ffffff; font-weight: bold">${res.name}</b> by <b style="color: #ffffff; font-weight: bold">${res.artist}</b> on <b style="color: #ffffff; font-weight: bold">Yandex Music</b>
                 </div>
         </div>`;
     } else {
